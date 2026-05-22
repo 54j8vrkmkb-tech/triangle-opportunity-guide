@@ -10,7 +10,15 @@ import {
 import { StatBlock } from "@/app/components/StatBlock";
 import { OccupationCard } from "@/app/components/OccupationCard";
 import { EmployerLink } from "@/app/components/EmployerLink";
+import { QuizCTA } from "@/app/components/QuizCTA";
+import { SectorOpenings } from "@/app/components/OpeningsLinks";
+import { SectorNCCareers } from "@/app/components/NCCareersLinks";
+import { SectorFlowDiagram } from "@/app/components/SectorFlowDiagram";
+import { AudienceNote } from "@/app/components/AudienceNote";
+import { GlossaryCallout } from "@/app/components/Glossary";
+import { SupportRouting } from "@/app/components/SupportRouting";
 import { getSectorTheme } from "@/app/components/sectorTheme";
+import { getSectorThroughlines } from "@/lib/data";
 
 export function generateStaticParams() {
   return sectors.map((s) => ({ id: s.id }));
@@ -44,6 +52,7 @@ export default async function SectorPage({
   const theme = getSectorTheme(sector.id);
   const occupations = getOccupationsForSector(id);
   const wage = getSectorWageStats(id);
+  const flow = getSectorThroughlines(id);
 
   return (
     <>
@@ -95,7 +104,9 @@ export default async function SectorPage({
       </section>
 
       <div className="mx-auto max-w-6xl px-5 py-10 sm:py-12">
-        <section>
+        <QuizCTA context={`a job in ${sector.name.toLowerCase()}`} />
+
+        <section className="mt-10">
           <div
             className="text-[10px] font-bold uppercase tracking-wider"
             style={{ color: theme.color }}
@@ -191,17 +202,57 @@ export default async function SectorPage({
         </section>
 
         <section className="mt-10">
+          <div
+            className="text-[10px] font-bold uppercase tracking-wider"
+            style={{ color: theme.color }}
+          >
+            Career flow
+          </div>
+          <h2 className="mt-1 font-display text-2xl sm:text-3xl uppercase tracking-wide text-[var(--color-foreground)]">
+            How people move through {sector.name}
+          </h2>
+          <p className="mt-1 text-xs text-[var(--color-muted)] max-w-3xl">
+            A high-level view of how Triangle workers enter and advance in this
+            sector — starting with common no-degree jobs and adjacent
+            occupations from other sectors that lead in.
+          </p>
+          <div className="mt-4">
+            <SectorFlowDiagram sectorId={sector.id} flow={flow} />
+          </div>
+        </section>
+
+        <section className="mt-10">
           <h2 className="font-display text-2xl uppercase tracking-wide text-[var(--color-foreground)]">
             Occupations in this sector
           </h2>
           <p className="mt-1 text-xs text-[var(--color-muted)]">
-            Sorted by median wage, entry-level roles first.
+            Sorted by median wage, entry-level roles first. Each role page
+            links out to live job postings.
           </p>
+          <div className="mt-2 mb-3">
+            <GlossaryCallout />
+          </div>
           <div className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2">
             {occupations.map((occ) => (
               <OccupationCard key={occ.id} occupation={occ} />
             ))}
           </div>
+        </section>
+
+        <section className="mt-10">
+          <SectorOpenings sector={sector} />
+        </section>
+
+        <section className="mt-10">
+          <SectorNCCareers sector={sector} />
+        </section>
+
+        <section className="mt-10">
+          <AudienceNote variant="full" />
+        </section>
+
+        <section className="mt-10">
+          <SupportRouting />
         </section>
       </div>
     </>

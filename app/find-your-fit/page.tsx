@@ -17,6 +17,14 @@ type Path = {
 
 const PATHS: Path[] = [
   {
+    href: "/find-your-fit/quiz",
+    eyebrow: "Quiz",
+    title: "Take the job-fit quiz",
+    description:
+      "Answer 6 quick questions about pay, schedule, county, indoor vs outdoor, and what you actually enjoy. We rank every Triangle role to fit your answers.",
+    whoFor: "You want a personalized shortlist in under a minute.",
+  },
+  {
     href: "/find-your-fit/fast-good-job",
     eyebrow: "Fast",
     title: "A good job, fast",
@@ -29,7 +37,7 @@ const PATHS: Path[] = [
     eyebrow: "Switch",
     title: "Change careers",
     description:
-      "Tell us what you've done before. We'll match it against adjacent roles where your existing skills carry over.",
+      "Tell us what you've done before — from any sector. We'll match it against Triangle roles where your existing skills carry over.",
     whoFor: "You have experience and want a new direction.",
   },
   {

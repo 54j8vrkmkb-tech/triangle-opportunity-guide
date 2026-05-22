@@ -1,5 +1,7 @@
 import type { TrainingProgram } from "@/lib/data";
+import { extractDomain } from "@/lib/data";
 import { getSectorTheme } from "./sectorTheme";
+import { Logo } from "./Logo";
 
 const CONTACT_NAMES = [
   "Marcus Thompson",
@@ -81,6 +83,7 @@ export function TrainingProgramCard({
     !/\s/.test(raw);
   const isLink = isHttp || looksLikeBareHostname;
   const applyHref = isHttp ? raw : looksLikeBareHostname ? `https://${raw}` : "#";
+  const providerDomain = extractDomain(raw);
 
   return (
     <article className="flex flex-col rounded-sm border border-[var(--color-border)] bg-white overflow-hidden">
@@ -90,11 +93,21 @@ export function TrainingProgramCard({
         aria-hidden
       />
       <div className="p-4">
-        <h3 className="font-display text-base uppercase tracking-wide text-[var(--color-foreground)] leading-tight">
-          {program.name}
-        </h3>
-        <div className="mt-1 text-xs text-[var(--color-muted)]">
-          {[program.type, program.location].filter(Boolean).join(" · ")}
+        <div className="flex items-start gap-3">
+          <Logo
+            domain={providerDomain}
+            name={program.name}
+            size={40}
+            rounded={false}
+          />
+          <div className="min-w-0 flex-1">
+            <h3 className="font-display text-base uppercase tracking-wide text-[var(--color-foreground)] leading-tight">
+              {program.name}
+            </h3>
+            <div className="mt-1 text-xs text-[var(--color-muted)]">
+              {[program.type, program.location].filter(Boolean).join(" · ")}
+            </div>
+          </div>
         </div>
         {program.highlight && (
           <p className="mt-2 text-sm text-[var(--color-foreground)] leading-snug">

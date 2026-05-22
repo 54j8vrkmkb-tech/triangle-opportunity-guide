@@ -9,7 +9,7 @@
     "region": "Triangle: Durham, Johnston, Orange, Wake counties",
     "lastUpdated": "2026-05-10",
     "dataSources": {
-      "wages": "BLS OEWS May 2024 — Raleigh-Durham MSA",
+      "wages": "BLS OEWS May 2024 \u2014 Raleigh-Durham MSA",
       "projections": "NC LEAD/NCCCS 2022-2032",
       "automationRisk": "McKinsey MGI task-analysis framework",
       "criminalRecord": "NC 2019 Freedom to Work Act framing"
@@ -20,7 +20,7 @@
     {
       "id": "healthcare",
       "name": "Healthcare",
-      "tagline": "The Triangle's fastest-growing sector — strongest sub-BA pathways in the region",
+      "tagline": "The Triangle's fastest-growing sector \u2014 strongest sub-BA pathways in the region",
       "headlineStats": [
         {
           "value": "+28,302",
@@ -28,11 +28,11 @@
         },
         {
           "value": "20.5%",
-          "label": "Growth — fastest sector"
+          "label": "Growth \u2014 fastest sector"
         },
         {
           "value": "Avg age 47",
-          "label": "RN avg age — retirements drive demand"
+          "label": "RN avg age \u2014 retirements drive demand"
         },
         {
           "value": "0.2",
@@ -71,8 +71,11 @@
         }
       ],
       "occupationIds": [
+        "cna",
         "medical-assistant",
         "medical-records-specialist",
+        "community-health-worker",
+        "clinical-research-coordinator",
         "lpn",
         "pta",
         "radiologic-tech",
@@ -83,7 +86,7 @@
     {
       "id": "life-sciences-mfg",
       "name": "Life Sciences Manufacturing",
-      "tagline": "Triangle biotech and pharma boom — $14.7B investment creating thousands of production jobs",
+      "tagline": "Triangle biotech and pharma boom \u2014 $14.7B investment creating thousands of production jobs",
       "headlineStats": [
         {
           "value": "+11,750",
@@ -143,7 +146,7 @@
     {
       "id": "skilled-trades",
       "name": "Skilled Trades",
-      "tagline": "29% of all regional job openings — Triangle building boom driving unprecedented demand",
+      "tagline": "29% of all regional job openings \u2014 Triangle building boom driving unprecedented demand",
       "headlineStats": [
         {
           "value": "29%",
@@ -151,7 +154,7 @@
         },
         {
           "value": "Chronic",
-          "label": "Shortage — demand exceeds supply"
+          "label": "Shortage \u2014 demand exceeds supply"
         },
         {
           "value": "Day 1",
@@ -203,7 +206,7 @@
     {
       "id": "it-tech",
       "name": "IT and Technology",
-      "tagline": "RTP tech concentration — sub-BA pathways in networking and cybersecurity are strong",
+      "tagline": "RTP tech concentration \u2014 sub-BA pathways in networking and cybersecurity are strong",
       "headlineStats": [
         {
           "value": "Fastest",
@@ -262,7 +265,7 @@
     {
       "id": "transportation",
       "name": "Transportation and Logistics",
-      "tagline": "High volume of openings year-round — e-commerce and Triangle growth driving demand",
+      "tagline": "High volume of openings year-round \u2014 e-commerce and Triangle growth driving demand",
       "headlineStats": [
         {
           "value": "High",
@@ -320,7 +323,7 @@
     {
       "id": "public-sector",
       "name": "Public Sector",
-      "tagline": "Stable employment across all four counties — best benefits package in the region",
+      "tagline": "Stable employment across all four counties \u2014 best benefits package in the region",
       "headlineStats": [
         {
           "value": "Stable",
@@ -393,10 +396,10 @@
         "source": "BLS OEWS May 2024"
       },
       "tags": {
-        "demand": "GROWING DEMAND — ACCESSIBLE ENTRY",
-        "automationRisk": "MEDIUM RISK — CLINICAL TASKS SECURE",
+        "demand": "GROWING DEMAND \u2014 ACCESSIBLE ENTRY",
+        "automationRisk": "MEDIUM RISK \u2014 CLINICAL TASKS SECURE",
         "entry": "ENTRY: CERTIFICATE 1 YEAR",
-        "criminalRecord": "RECORD: MORE ACCESSIBLE — NO LICENSURE"
+        "criminalRecord": "RECORD: MORE ACCESSIBLE \u2014 NO LICENSURE"
       },
       "summary": "Support physicians with patient intake, vitals, injections, and scheduling in outpatient clinics.",
       "byTheNumbers": [
@@ -434,6 +437,36 @@
           "note": "Outpatient"
         },
         {
+          "name": "Lincoln Community Health Center",
+          "location": "Durham",
+          "note": "FQHC"
+        },
+        {
+          "name": "Piedmont Health Services",
+          "location": "Carrboro / Chatham / Orange",
+          "note": "Multiple FQHC sites"
+        },
+        {
+          "name": "Advance Community Health",
+          "location": "Raleigh / Wake",
+          "note": "FQHC"
+        },
+        {
+          "name": "Avance Care",
+          "location": "Triangle-wide",
+          "note": "Regional primary care group"
+        },
+        {
+          "name": "Triangle Family Practice",
+          "location": "Wake / Durham",
+          "note": "Multiple locations"
+        },
+        {
+          "name": "MedNorth Health Center",
+          "location": "Triangle",
+          "note": "Community clinic"
+        },
+        {
           "name": "Private physician practices",
           "location": "Durham and Wake",
           "note": "500+"
@@ -446,19 +479,19 @@
       ],
       "quickFacts": [
         "One of the few M-F schedules in clinical healthcare",
-        "No licensure required — faster entry path",
+        "No licensure required \u2014 faster entry path",
         "Best stepping stone into LPN and RN programs",
         "AI handles admin tasks; clinical work stays human"
       ],
       "whatYoullDo": [
         "Support physicians with patient intake, vitals, injections, and scheduling.",
-        "Work in physician offices and outpatient clinics — typically M-F schedule.",
+        "Work in physician offices and outpatient clinics \u2014 typically M-F schedule.",
         "500+ private practices in Durham and Wake County hiring regularly.",
-        "Bridge role — MA experience strengthens LPN and RN program applications."
+        "Bridge role \u2014 MA experience strengthens LPN and RN program applications."
       ],
       "trainingPrograms": [
         {
-          "name": "Durham Technical CC — Medical Assisting",
+          "name": "Durham Technical CC \u2014 Medical Assisting",
           "type": "Certificate",
           "location": "Durham",
           "highlight": "Externship in local practices",
@@ -468,7 +501,7 @@
           "info": "919-536-7200"
         },
         {
-          "name": "Wake Technical CC — Medical Assisting",
+          "name": "Wake Technical CC \u2014 Medical Assisting",
           "type": "Certificate/diploma",
           "location": "Wake County",
           "highlight": "Evening options",
@@ -478,7 +511,7 @@
           "info": "919-866-5000"
         },
         {
-          "name": "Johnston Community College — Medical Office",
+          "name": "Johnston Community College \u2014 Medical Office",
           "type": "",
           "location": "Johnston County",
           "highlight": "Admin or clinical track",
@@ -488,7 +521,7 @@
           "info": "919-934-3051"
         },
         {
-          "name": "NCWorks Career Centers — Medical Certs",
+          "name": "NCWorks Career Centers \u2014 Medical Certs",
           "type": "",
           "location": "Triangle locations",
           "highlight": "Short-term cert pathways",
@@ -499,10 +532,10 @@
         }
       ],
       "jobQuality": {
-        "benefits": "Variable by practice size — larger clinics better; small practices vary",
-        "schedule": "M-F daytime typical — no shift work in most roles; rare in clinical healthcare",
-        "advancement": "MA to LPN to RN — clear career ladder; clinical experience valued",
-        "automation": "AI handles admin tasks — clinical tasks remain human-performed"
+        "benefits": "Variable by practice size \u2014 larger clinics better; small practices vary",
+        "schedule": "M-F daytime typical \u2014 no shift work in most roles; rare in clinical healthcare",
+        "advancement": "MA to LPN to RN \u2014 clear career ladder; clinical experience valued",
+        "automation": "AI handles admin tasks \u2014 clinical tasks remain human-performed"
       },
       "careerPathway": [
         {
@@ -559,9 +592,9 @@
       },
       "tags": {
         "demand": "GROWING DEMAND",
-        "automationRisk": "HIGHER RISK — SPECIALIZE TO STAY AHEAD",
+        "automationRisk": "HIGHER RISK \u2014 SPECIALIZE TO STAY AHEAD",
         "entry": "ENTRY: CERTIFICATE 6-12 MONTHS",
-        "criminalRecord": "RECORD: MORE ACCESSIBLE — NO LICENSURE"
+        "criminalRecord": "RECORD: MORE ACCESSIBLE \u2014 NO LICENSURE"
       },
       "summary": "Organize, code, and manage patient health records in EHR systems.",
       "byTheNumbers": [
@@ -611,19 +644,19 @@
       ],
       "quickFacts": [
         "Only healthcare role with true remote options",
-        "No licensure required — faster entry",
+        "No licensure required \u2014 faster entry",
         "Specialized coding (CCS) most resistant to automation",
         "AI handles basic data entry; coding skills valued"
       ],
       "whatYoullDo": [
         "Organize, code, and manage patient health information in EHR systems.",
-        "Medical coding (ICD-10, CPT) is most resistant to automation — and best paid.",
+        "Medical coding (ICD-10, CPT) is most resistant to automation \u2014 and best paid.",
         "Remote-friendly: many Triangle systems offer hybrid and fully remote roles.",
-        "No licensure required — background check policy set by employer."
+        "No licensure required \u2014 background check policy set by employer."
       ],
       "trainingPrograms": [
         {
-          "name": "Durham Technical CC — Health Info Technology",
+          "name": "Durham Technical CC \u2014 Health Info Technology",
           "type": "AAS",
           "location": "Durham",
           "highlight": "Prepares for CCS and RHIT creds",
@@ -633,7 +666,7 @@
           "info": "919-536-7200"
         },
         {
-          "name": "Wake Technical CC — Medical Office Admin",
+          "name": "Wake Technical CC \u2014 Medical Office Admin",
           "type": "Certificate/diploma",
           "location": "Wake County",
           "highlight": "",
@@ -643,7 +676,7 @@
           "info": "919-866-5000"
         },
         {
-          "name": "AHIMA Online — CCS Coding Credential",
+          "name": "AHIMA Online \u2014 CCS Coding Credential",
           "type": "Cert prep",
           "location": "Remote-friendly",
           "highlight": "6 months",
@@ -653,7 +686,7 @@
           "info": "ahima.org"
         },
         {
-          "name": "IQVIA and Duke Health — HIM Apprenticeships",
+          "name": "IQVIA and Duke Health \u2014 HIM Apprenticeships",
           "type": "",
           "location": "Triangle",
           "highlight": "Industry-specific HIM training pathways",
@@ -664,10 +697,10 @@
         }
       ],
       "jobQuality": {
-        "benefits": "Strong at large systems — Duke, UNC, WakeMed full benefits packages",
-        "schedule": "M-F typical — hybrid and remote widely available in Triangle",
-        "advancement": "Coder to HIM Mgr — CCS raises wages sharply; clear ladder to $50+/hr",
-        "automation": "Data entry at risk — specialized coding is secure; ICD-10/CPT skills valued"
+        "benefits": "Strong at large systems \u2014 Duke, UNC, WakeMed full benefits packages",
+        "schedule": "M-F typical \u2014 hybrid and remote widely available in Triangle",
+        "advancement": "Coder to HIM Mgr \u2014 CCS raises wages sharply; clear ladder to $50+/hr",
+        "automation": "Data entry at risk \u2014 specialized coding is secure; ICD-10/CPT skills valued"
       },
       "careerPathway": [
         {
@@ -723,7 +756,7 @@
         "source": "BLS OEWS May 2024"
       },
       "tags": {
-        "demand": "STRONG DEMAND — FASTEST NURSING PATH",
+        "demand": "STRONG DEMAND \u2014 FASTEST NURSING PATH",
         "automationRisk": "LOW AUTOMATION RISK",
         "entry": "ENTRY: CERTIFICATE 12 MONTHS",
         "criminalRecord": "RECORD: REVIEWED INDIVIDUALLY IN NC"
@@ -783,12 +816,12 @@
       "whatYoullDo": [
         "Provide direct patient care under RN supervision in every care setting.",
         "Administer medications, monitor patients, perform procedures, document care.",
-        "LPN is the fastest path to licensed nursing — and a proven on-ramp to RN.",
+        "LPN is the fastest path to licensed nursing \u2014 and a proven on-ramp to RN.",
         "Strong demand in long-term care, home health, and physician offices."
       ],
       "trainingPrograms": [
         {
-          "name": "Durham Technical CC — LPN Certificate",
+          "name": "Durham Technical CC \u2014 LPN Certificate",
           "type": "12-month program",
           "location": "Durham",
           "highlight": "Ladders to ADN",
@@ -798,7 +831,7 @@
           "info": "919-536-7200"
         },
         {
-          "name": "Wake Technical CC — Practical Nursing",
+          "name": "Wake Technical CC \u2014 Practical Nursing",
           "type": "Multiple tracks",
           "location": "Wake County",
           "highlight": "Evening options",
@@ -808,7 +841,7 @@
           "info": "919-866-5000"
         },
         {
-          "name": "Johnston Community College — PN Program",
+          "name": "Johnston Community College \u2014 PN Program",
           "type": "",
           "location": "Johnston County",
           "highlight": "Close to Johnston Health",
@@ -818,7 +851,7 @@
           "info": "919-934-3051"
         },
         {
-          "name": "Central Carolina CC — PN Certificate",
+          "name": "Central Carolina CC \u2014 PN Certificate",
           "type": "",
           "location": "Chatham/Harnett",
           "highlight": "Near Sanford/Holly Springs",
@@ -829,10 +862,10 @@
         }
       ],
       "jobQuality": {
-        "benefits": "Strong at large systems — long-term care benefits vary; ask before accepting",
-        "schedule": "Shift work common — some M-F clinic roles in physician offices",
-        "advancement": "LPN to RN bridge — most large employers sponsor; clear path to $40+/hr",
-        "demands": "Direct patient care — physically demanding; high-volume care environments"
+        "benefits": "Strong at large systems \u2014 long-term care benefits vary; ask before accepting",
+        "schedule": "Shift work common \u2014 some M-F clinic roles in physician offices",
+        "advancement": "LPN to RN bridge \u2014 most large employers sponsor; clear path to $40+/hr",
+        "demands": "Direct patient care \u2014 physically demanding; high-volume care environments"
       },
       "careerPathway": [
         {
@@ -949,12 +982,12 @@
       "whatYoullDo": [
         "Help patients recover from injury and surgery through therapeutic exercise.",
         "Triangle's aging population and orthopedic surgery volume drive strong demand.",
-        "Most outpatient clinic roles offer M-F schedules — rare in clinical healthcare.",
+        "Most outpatient clinic roles offer M-F schedules \u2014 rare in clinical healthcare.",
         "EmergeOrtho, Duke Orthopedics, and 100+ outpatient clinics actively hiring."
       ],
       "trainingPrograms": [
         {
-          "name": "Durham Technical CC — PTA Program",
+          "name": "Durham Technical CC \u2014 PTA Program",
           "type": "2-yr AAS",
           "location": "Durham",
           "highlight": "CAPTE-accredited",
@@ -964,7 +997,7 @@
           "info": "919-536-7200"
         },
         {
-          "name": "Caldwell Community College — PTA",
+          "name": "Caldwell Community College \u2014 PTA",
           "type": "",
           "location": "Western Triangle",
           "highlight": "CAPTE-accredited",
@@ -974,7 +1007,7 @@
           "info": "828-726-2200"
         },
         {
-          "name": "Wake Technical CC — Allied Health",
+          "name": "Wake Technical CC \u2014 Allied Health",
           "type": "Multiple PT-adjacent programs",
           "location": "Wake County",
           "highlight": "",
@@ -984,21 +1017,21 @@
           "info": "919-866-5000"
         },
         {
-          "name": "EmergeOrtho / Duke Ortho — Clinical Sites",
+          "name": "EmergeOrtho / Duke Ortho \u2014 Clinical Sites",
           "type": "Major Triangle employers",
           "location": "Triangle",
           "highlight": "Rotation partners",
           "applyUrl": "Apply through CC program",
-          "cost": "N/A — clinical site",
+          "cost": "N/A \u2014 clinical site",
           "starts": "During year 2",
           "info": "Program advisor"
         }
       ],
       "jobQuality": {
-        "benefits": "Good at large clinics — outpatient practices vary; ask about health/401k",
-        "schedule": "M-F in outpatient — hospital roles have shifts; outpatient is typical M-F",
-        "advancement": "PTA to PT path — requires bachelor + masters; high ceiling if you continue",
-        "demands": "Physically active — rewarding patient outcomes; lower stress than ICU"
+        "benefits": "Good at large clinics \u2014 outpatient practices vary; ask about health/401k",
+        "schedule": "M-F in outpatient \u2014 hospital roles have shifts; outpatient is typical M-F",
+        "advancement": "PTA to PT path \u2014 requires bachelor + masters; high ceiling if you continue",
+        "demands": "Physically active \u2014 rewarding patient outcomes; lower stress than ICU"
       },
       "careerPathway": [
         {
@@ -1055,7 +1088,7 @@
       },
       "tags": {
         "demand": "STRONG DEMAND",
-        "automationRisk": "MEDIUM RISK — ROLE EVOLVING WITH AI",
+        "automationRisk": "MEDIUM RISK \u2014 ROLE EVOLVING WITH AI",
         "entry": "ENTRY: ASSOCIATE DEGREE 2 YRS",
         "criminalRecord": "RECORD: REVIEWED INDIVIDUALLY IN NC"
       },
@@ -1119,7 +1152,7 @@
       ],
       "trainingPrograms": [
         {
-          "name": "Wake Technical CC — Radiography Program",
+          "name": "Wake Technical CC \u2014 Radiography Program",
           "type": "2-yr AAS",
           "location": "Wake County",
           "highlight": "JRCERT-accredited; WakeMed placement",
@@ -1129,7 +1162,7 @@
           "info": "919-866-5000"
         },
         {
-          "name": "Johnston Community College — Radiography",
+          "name": "Johnston Community College \u2014 Radiography",
           "type": "",
           "location": "Johnston County",
           "highlight": "JRCERT-accredited",
@@ -1139,17 +1172,17 @@
           "info": "919-934-3051"
         },
         {
-          "name": "UNC Health / Duke — Clinical Partnerships",
+          "name": "UNC Health / Duke \u2014 Clinical Partnerships",
           "type": "",
           "location": "Triangle",
           "highlight": "Both systems partner w/ CC programs",
           "applyUrl": "Apply through CC program",
-          "cost": "N/A — clinical rotation",
+          "cost": "N/A \u2014 clinical rotation",
           "starts": "During year 2 of ADN",
           "info": "Program advisor"
         },
         {
-          "name": "CT/MRI Specialization — Post-ADN",
+          "name": "CT/MRI Specialization \u2014 Post-ADN",
           "type": "Specialization",
           "location": "Online/in-person",
           "highlight": "Raises wages $5-10/hr above base",
@@ -1160,10 +1193,10 @@
         }
       ],
       "jobQuality": {
-        "benefits": "Excellent at large systems — strong health and 401k; Duke, UNC, WakeMed",
-        "schedule": "Mix of M-F and shifts — some on-call required; hospital includes nights",
-        "advancement": "RT to CT/MRI — specialization adds $5-10/hr; management track avail.",
-        "automation": "AI reads images — patient care stays essential; role evolves not disappears"
+        "benefits": "Excellent at large systems \u2014 strong health and 401k; Duke, UNC, WakeMed",
+        "schedule": "Mix of M-F and shifts \u2014 some on-call required; hospital includes nights",
+        "advancement": "RT to CT/MRI \u2014 specialization adds $5-10/hr; management track avail.",
+        "automation": "AI reads images \u2014 patient care stays essential; role evolves not disappears"
       },
       "careerPathway": [
         {
@@ -1284,7 +1317,7 @@
       ],
       "trainingPrograms": [
         {
-          "name": "Durham Technical CC — Respiratory Therapy",
+          "name": "Durham Technical CC \u2014 Respiratory Therapy",
           "type": "2-yr AAS",
           "location": "Durham",
           "highlight": "Duke/UNC Health rotations",
@@ -1294,7 +1327,7 @@
           "info": "919-536-7200"
         },
         {
-          "name": "Wake Technical CC — Respiratory Therapy",
+          "name": "Wake Technical CC \u2014 Respiratory Therapy",
           "type": "CoARC-accredited",
           "location": "Wake County",
           "highlight": "WakeMed placement",
@@ -1304,7 +1337,7 @@
           "info": "919-866-5000"
         },
         {
-          "name": "Johnston Community College — Allied Health",
+          "name": "Johnston Community College \u2014 Allied Health",
           "type": "",
           "location": "Johnston County",
           "highlight": "Regional option",
@@ -1314,7 +1347,7 @@
           "info": "919-934-3051"
         },
         {
-          "name": "RRT Credential (NBRC) — Post-ADN",
+          "name": "RRT Credential (NBRC) \u2014 Post-ADN",
           "type": "Credential",
           "location": "Online",
           "highlight": "Raises wages $5-8/hr; can complete while working",
@@ -1325,10 +1358,10 @@
         }
       ],
       "jobQuality": {
-        "benefits": "Excellent at large systems — full benefits; shift differentials apply",
-        "schedule": "12-hr hospital shifts — some M-F clinic options; hospital includes nights",
-        "advancement": "RT to Specialist — RRT credential raises wages; management track available",
-        "demands": "High-stakes ICU work — emotionally demanding; rewarding patient outcomes"
+        "benefits": "Excellent at large systems \u2014 full benefits; shift differentials apply",
+        "schedule": "12-hr hospital shifts \u2014 some M-F clinic options; hospital includes nights",
+        "advancement": "RT to Specialist \u2014 RRT credential raises wages; management track available",
+        "demands": "High-stakes ICU work \u2014 emotionally demanding; rewarding patient outcomes"
       },
       "careerPathway": [
         {
@@ -1402,7 +1435,7 @@
         },
         {
           "value": "Age 47",
-          "label": "Avg US RN age — retirements drive openings"
+          "label": "Avg US RN age \u2014 retirements drive openings"
         },
         {
           "value": "0.2",
@@ -1450,7 +1483,7 @@
       ],
       "trainingPrograms": [
         {
-          "name": "Durham Technical CC — Associate Degree Nursing",
+          "name": "Durham Technical CC \u2014 Associate Degree Nursing",
           "type": "2-yr ADN",
           "location": "Durham",
           "highlight": "Strong Duke Health placement",
@@ -1460,7 +1493,7 @@
           "info": "919-536-7200"
         },
         {
-          "name": "Wake Technical CC — ADN and LPN Programs",
+          "name": "Wake Technical CC \u2014 ADN and LPN Programs",
           "type": "Multiple tracks",
           "location": "Wake County",
           "highlight": "Evening/hybrid",
@@ -1470,7 +1503,7 @@
           "info": "919-866-5000"
         },
         {
-          "name": "Johnston Community College — ADN",
+          "name": "Johnston Community College \u2014 ADN",
           "type": "",
           "location": "Johnston County",
           "highlight": "Close to WakeMed/Johnston Health",
@@ -1480,7 +1513,7 @@
           "info": "919-934-3051"
         },
         {
-          "name": "Duke/UNC Health — Employer Bridge Programs",
+          "name": "Duke/UNC Health \u2014 Employer Bridge Programs",
           "type": "Bridge",
           "location": "Triangle",
           "highlight": "LPN-to-RN sponsorship for current employees",
@@ -1491,10 +1524,10 @@
         }
       ],
       "jobQuality": {
-        "benefits": "Excellent at large systems — health, 401k, tuition assist; smaller clinics vary",
-        "schedule": "3x12-hr hospital shifts — M-F outpatient avail; shift diff $3-8/hr",
-        "advancement": "RN to Charge to NP — employers sponsor education; clear ladder to $62+/hr",
-        "demands": "High-stakes environments — physically and emotionally intense; shift work required"
+        "benefits": "Excellent at large systems \u2014 health, 401k, tuition assist; smaller clinics vary",
+        "schedule": "3x12-hr hospital shifts \u2014 M-F outpatient avail; shift diff $3-8/hr",
+        "advancement": "RN to Charge to NP \u2014 employers sponsor education; clear ladder to $62+/hr",
+        "demands": "High-stakes environments \u2014 physically and emotionally intense; shift work required"
       },
       "careerPathway": [
         {
@@ -1540,6 +1573,553 @@
       "lateralFromIds": []
     },
     {
+      "id": "cna",
+      "title": "Certified Nursing Assistant",
+      "sectorId": "healthcare",
+      "settings": "Hospitals, long-term care, home health, hospice \u2014 Triangle-wide",
+      "wage": {
+        "median": 17.5,
+        "annualMedian": 36400,
+        "msa": "Raleigh-Durham",
+        "source": "BLS OEWS May 2024"
+      },
+      "tags": {
+        "demand": "GROWING DEMAND \u2014 VERY HIGH TURNOVER",
+        "automationRisk": "LOW RISK \u2014 HANDS-ON CARE",
+        "entry": "ENTRY: 4-12 WEEK CERTIFICATE",
+        "criminalRecord": "RECORD: ACCESSIBLE WITH BACKGROUND CHECK"
+      },
+      "summary": "Provide direct patient care under nursing supervision \u2014 bathing, feeding, vitals, mobility help. Fastest legal entry into clinical healthcare in NC and the most common springboard to LPN and RN.",
+      "byTheNumbers": [
+        {
+          "value": "4-12 weeks",
+          "label": "Typical training duration"
+        },
+        {
+          "value": "1,200+",
+          "label": "Open CNA postings across the Triangle"
+        },
+        {
+          "value": "8-12 hr",
+          "label": "Shifts; days/eve/nights at 24/7 facilities"
+        },
+        {
+          "value": "Bridge",
+          "label": "Most common springboard to LPN and RN"
+        }
+      ],
+      "topEmployers": [
+        {
+          "name": "Duke Health",
+          "location": "Durham / Triangle",
+          "note": "Hospital, LTC, home care"
+        },
+        {
+          "name": "UNC Health",
+          "location": "Chapel Hill / Raleigh / Johnston",
+          "note": ""
+        },
+        {
+          "name": "WakeMed",
+          "location": "Wake County",
+          "note": ""
+        },
+        {
+          "name": "Hillcrest Convalescent Center",
+          "location": "Durham",
+          "note": "Skilled nursing"
+        },
+        {
+          "name": "Brookdale Senior Living",
+          "location": "Multiple Triangle locations",
+          "note": "Assisted living"
+        },
+        {
+          "name": "Liberty Healthcare",
+          "location": "Triangle long-term care",
+          "note": ""
+        },
+        {
+          "name": "Home Instead",
+          "location": "Wake / Durham",
+          "note": "Home care"
+        },
+        {
+          "name": "Carolina Caring",
+          "location": "Triangle hospice",
+          "note": ""
+        }
+      ],
+      "quickFacts": [
+        "Fastest legal entry into clinical healthcare in NC",
+        "Strong CNA \u2192 LPN \u2192 RN ladder; most NC nursing schools require or prefer CNA experience",
+        "Shift work is the norm; many facilities offer weekend or night differentials",
+        "High turnover means employers are constantly hiring \u2014 easier to land first job"
+      ],
+      "whatYoullDo": [
+        "Help patients with bathing, feeding, dressing, and mobility.",
+        "Take vital signs and document care in the EHR.",
+        "Reposition patients to prevent pressure injuries; assist with transfers.",
+        "Communicate changes in patient condition to the nursing team."
+      ],
+      "trainingPrograms": [
+        {
+          "name": "Wake Tech \u2014 Nurse Aide I",
+          "type": "Certificate",
+          "location": "Wake County",
+          "highlight": "Approved by NC Board of Nursing",
+          "applyUrl": "waketech.edu",
+          "cost": "Free w/ aid; WIOA eligible",
+          "starts": "Multiple cohorts year-round",
+          "info": "919-866-5000"
+        },
+        {
+          "name": "Durham Tech \u2014 Nurse Aide I",
+          "type": "Certificate",
+          "location": "Durham",
+          "highlight": "Clinical rotations at Triangle hospitals",
+          "applyUrl": "durhamtech.edu",
+          "cost": "Free w/ aid; WIOA eligible",
+          "starts": "Rolling admission",
+          "info": "919-536-7200"
+        },
+        {
+          "name": "Johnston Community College \u2014 Nurse Aide",
+          "type": "Certificate",
+          "location": "Johnston County",
+          "highlight": "Fall and Spring cohorts",
+          "applyUrl": "johnstoncc.edu",
+          "cost": "Free w/ aid",
+          "starts": "Fall and Spring",
+          "info": "919-934-3051"
+        },
+        {
+          "name": "NCWorks CNA short-term training",
+          "type": "Certificate",
+          "location": "Triangle-wide",
+          "highlight": "Often free with eligibility",
+          "applyUrl": "ncworks.gov or walk in",
+          "cost": "Often free w/ eligibility",
+          "starts": "Rolling admission",
+          "info": "888-367-0375"
+        }
+      ],
+      "jobQuality": {
+        "schedule": "Shifts (8-12 hr) \u2014 days, evenings, nights, weekends typical at 24/7 facilities",
+        "benefits": "Varies widely \u2014 large hospital systems include health/retirement/paid leave; smaller LTC and home-health agencies are more variable",
+        "advancement": "CNA II, charge CNA, LPN bridge, RN ADN bridge \u2014 clear vertical ladder",
+        "automation": "Low \u2014 hands-on personal care doesn't automate"
+      },
+      "careerPathway": [
+        {
+          "role": "CNA",
+          "wage": "$17-19",
+          "detail": "Starting",
+          "current": true
+        },
+        {
+          "role": "CNA II",
+          "wage": "$19-22",
+          "detail": "1-2 yrs"
+        },
+        {
+          "role": "LPN",
+          "wage": "$29-32",
+          "detail": "12-month program"
+        },
+        {
+          "role": "RN (ADN)",
+          "wage": "$40-48",
+          "detail": "2-yr program"
+        },
+        {
+          "role": "Charge nurse",
+          "wage": "$48-58",
+          "detail": "3-5 yrs"
+        }
+      ],
+      "skills": [
+        "patient hygiene and personal care",
+        "vital signs measurement",
+        "patient mobility and transfers",
+        "infection control",
+        "EHR documentation",
+        "communication with patients and families"
+      ],
+      "adjacentOccupationIds": [
+        "medical-assistant",
+        "lpn",
+        "pta"
+      ],
+      "lateralFromIds": []
+    },
+    {
+      "id": "community-health-worker",
+      "title": "Community Health Worker",
+      "sectorId": "healthcare",
+      "settings": "Community health centers, public health departments, nonprofit clinics, hospital outreach teams \u2014 Triangle-wide",
+      "wage": {
+        "median": 21.5,
+        "annualMedian": 44720,
+        "msa": "Raleigh-Durham",
+        "source": "BLS OEWS May 2024 (21-1094)"
+      },
+      "tags": {
+        "demand": "GROWING DEMAND \u2014 POST-COVID EXPANSION",
+        "automationRisk": "LOW RISK \u2014 TRUST-BASED COMMUNITY WORK",
+        "entry": "ENTRY: HS DIPLOMA + 80-200 HR CERT",
+        "criminalRecord": "RECORD: VARIES BY EMPLOYER"
+      },
+      "summary": "Connect underserved patients to healthcare, social services, transportation, and education. Often hired from the community served. Strong M-F roles at federally qualified health centers, public health departments, and hospital outreach teams.",
+      "byTheNumbers": [
+        {
+          "value": "Bilingual+",
+          "label": "Spanish-English fluency highly valued"
+        },
+        {
+          "value": "M-F daytime",
+          "label": "Most roles are weekday daytime"
+        },
+        {
+          "value": "NC expansion",
+          "label": "Medicaid now covers CHW services in NC"
+        },
+        {
+          "value": "Bridge",
+          "label": "Common path to social work or nursing"
+        }
+      ],
+      "topEmployers": [
+        {
+          "name": "Piedmont Health Services",
+          "location": "Carrboro / Triangle",
+          "note": "FQHC \u2014 multiple sites"
+        },
+        {
+          "name": "Lincoln Community Health Center",
+          "location": "Durham",
+          "note": "FQHC serving Durham"
+        },
+        {
+          "name": "Duke Population Health",
+          "location": "Durham",
+          "note": "Community outreach teams"
+        },
+        {
+          "name": "Advance Community Health",
+          "location": "Raleigh",
+          "note": "FQHC"
+        },
+        {
+          "name": "El Futuro",
+          "location": "Durham",
+          "note": "Latino mental health nonprofit"
+        },
+        {
+          "name": "Wake County Human Services",
+          "location": "Wake County",
+          "note": "Public health programs"
+        },
+        {
+          "name": "Durham County Department of Public Health",
+          "location": "Durham",
+          "note": ""
+        },
+        {
+          "name": "UNC Family Medicine outreach",
+          "location": "Chapel Hill",
+          "note": ""
+        }
+      ],
+      "quickFacts": [
+        "Spanish bilingual hires earn premium and have many more openings",
+        "Most CHW roles are M-F daytime \u2014 rare in clinical healthcare",
+        "NC Medicaid now reimburses CHW services, fueling employer demand",
+        "Common bridge into social work, nursing, or public health admin"
+      ],
+      "whatYoullDo": [
+        "Connect patients to clinical, social, and transportation resources.",
+        "Conduct home or community-based check-ins; help with appointment navigation.",
+        "Provide basic health education on chronic disease management.",
+        "Document encounters in the EHR or population-health platforms."
+      ],
+      "trainingPrograms": [
+        {
+          "name": "Durham Tech \u2014 CHW Certificate",
+          "type": "Certificate",
+          "location": "Durham",
+          "highlight": "Designed with Lincoln CHC and Duke",
+          "applyUrl": "durhamtech.edu",
+          "cost": "Free w/ aid; WIOA eligible",
+          "starts": "Fall and Spring",
+          "info": "919-536-7200"
+        },
+        {
+          "name": "Wake Tech \u2014 Community Health Worker",
+          "type": "Certificate",
+          "location": "Wake County",
+          "highlight": "Bilingual track available",
+          "applyUrl": "waketech.edu",
+          "cost": "Free w/ aid",
+          "starts": "Rolling",
+          "info": "919-866-5000"
+        },
+        {
+          "name": "NC CHW Association certification",
+          "type": "Statewide certification",
+          "location": "Online + in-person",
+          "highlight": "Standardized credential for NC employers",
+          "applyUrl": "ncchwa.org",
+          "cost": "Sliding scale",
+          "starts": "Rolling cohorts",
+          "info": "Statewide"
+        },
+        {
+          "name": "NCWorks Health Career Pathways",
+          "type": "Funded training pathway",
+          "location": "Triangle-wide",
+          "highlight": "Stipend support available",
+          "applyUrl": "ncworks.gov or walk in",
+          "cost": "Often free w/ eligibility",
+          "starts": "Rolling",
+          "info": "888-367-0375"
+        }
+      ],
+      "jobQuality": {
+        "schedule": "M-F daytime typical; some evening community events",
+        "benefits": "Strong at FQHCs and public health departments \u2014 federal/state coverage, retirement, paid leave",
+        "advancement": "Lead CHW, CHW supervisor, program coordinator, social worker (with degree)",
+        "automation": "Low \u2014 community trust and human connection don't automate"
+      },
+      "careerPathway": [
+        {
+          "role": "CHW",
+          "wage": "$21-23",
+          "detail": "Starting",
+          "current": true
+        },
+        {
+          "role": "Lead CHW",
+          "wage": "$24-27",
+          "detail": "1-2 yrs"
+        },
+        {
+          "role": "CHW Supervisor",
+          "wage": "$28-32",
+          "detail": "3-4 yrs"
+        },
+        {
+          "role": "Program Coordinator",
+          "wage": "$32-38",
+          "detail": "4+ yrs"
+        },
+        {
+          "role": "Social Worker (BSW)",
+          "wage": "$31-40",
+          "detail": "+ Bachelor's"
+        }
+      ],
+      "skills": [
+        "community engagement",
+        "motivational interviewing",
+        "basic health education",
+        "social services navigation",
+        "Spanish bilingual",
+        "cultural competence",
+        "documentation and case notes"
+      ],
+      "adjacentOccupationIds": [
+        "social-worker",
+        "medical-assistant",
+        "medical-records-specialist"
+      ],
+      "lateralFromIds": []
+    },
+    {
+      "id": "clinical-research-coordinator",
+      "title": "Clinical Research Coordinator",
+      "sectorId": "healthcare",
+      "settings": "Academic medical centers, contract research orgs (CROs), pharma sites \u2014 Duke, UNC, WakeMed, and Triangle CROs",
+      "wage": {
+        "median": 28.5,
+        "annualMedian": 59280,
+        "msa": "Raleigh-Durham",
+        "source": "BLS OEWS May 2024 (varies by title)"
+      },
+      "tags": {
+        "demand": "GROWING DEMAND \u2014 TRIANGLE RESEARCH HUB",
+        "automationRisk": "LOW RISK \u2014 REGULATED WORK",
+        "entry": "ENTRY VARIES BY EMPLOYER",
+        "criminalRecord": "RECORD: BACKGROUND CHECK REQUIRED"
+      },
+      "summary": "Coordinate clinical trials \u2014 patient enrollment, regulatory paperwork, data entry, sample collection. The Triangle is a national hub for trials. Titles, entry levels, and degree requirements vary widely between Duke, UNC, hospital systems, and CROs.",
+      "variability": {
+        "titles": "Titles vary widely: Clinical Research Coordinator, Clinical Research Assistant, CRC I/II, Research Specialist, Study Coordinator. The same work can sit at different levels at different employers.",
+        "requirements": "Minimum qualifications differ across institutions. Some employers (Duke, UNC for senior roles) require a 4-year degree. Others \u2014 many CROs and entry-level academic positions \u2014 accept a 2-year degree plus relevant experience, a CCRP/SoCRA certification, or strong healthcare background (MA, CNA, lab tech).",
+        "advancement": "One employer's ladder may not match another's. CRO ladders (CRA \u2192 Sr CRA \u2192 Project Manager) differ from academic ladders (CRC \u2192 Sr CRC \u2192 Research Manager)."
+      },
+      "byTheNumbers": [
+        {
+          "value": "100+",
+          "label": "Triangle CROs and trial sites"
+        },
+        {
+          "value": "M-F daytime",
+          "label": "Most roles, though some patient visits flex"
+        },
+        {
+          "value": "Cert path",
+          "label": "SoCRA / ACRP certifications add credibility"
+        },
+        {
+          "value": "Bridge",
+          "label": "Common entry from MA, lab tech, CNA experience"
+        }
+      ],
+      "topEmployers": [
+        {
+          "name": "Duke Office of Clinical Research",
+          "location": "Durham",
+          "note": "Largest academic trials sponsor in the Triangle"
+        },
+        {
+          "name": "UNC Lineberger Comprehensive Cancer Center",
+          "location": "Chapel Hill",
+          "note": "Oncology trials"
+        },
+        {
+          "name": "WakeMed Health & Hospitals research",
+          "location": "Wake County",
+          "note": ""
+        },
+        {
+          "name": "PPD (Thermo Fisher)",
+          "location": "Wilmington / Triangle",
+          "note": "Major CRO"
+        },
+        {
+          "name": "Parexel",
+          "location": "Durham / RTP",
+          "note": "Global CRO"
+        },
+        {
+          "name": "IQVIA",
+          "location": "Durham / RTP",
+          "note": "Global CRO"
+        },
+        {
+          "name": "Labcorp Drug Development",
+          "location": "Burlington / Triangle",
+          "note": "Clinical trials and central labs"
+        },
+        {
+          "name": "Family Health Centers research",
+          "location": "Triangle FQHCs",
+          "note": "Community-based trials"
+        }
+      ],
+      "quickFacts": [
+        "Titles and degree requirements vary \u2014 read each job posting closely",
+        "Some employers waive degree requirements with CCRP or SoCRA certification + healthcare experience",
+        "Strong path for MAs, CNAs, and lab techs looking for M-F desk-based work with patient contact",
+        "Triangle's CRO and academic medical concentration means more openings here than most US metros"
+      ],
+      "whatYoullDo": [
+        "Screen and enroll patients into clinical trials per the protocol.",
+        "Maintain regulatory binders, IRB submissions, and documentation.",
+        "Collect samples, vital signs, and case-report-form data.",
+        "Coordinate sponsor monitor visits and respond to data queries."
+      ],
+      "trainingPrograms": [
+        {
+          "name": "Durham Tech \u2014 Clinical Trials Research Associate",
+          "type": "Certificate / AAS",
+          "location": "Durham",
+          "highlight": "Externship at Triangle CROs",
+          "applyUrl": "durhamtech.edu",
+          "cost": "Free w/ aid; WIOA eligible",
+          "starts": "Fall and Spring",
+          "info": "919-536-7200"
+        },
+        {
+          "name": "Wake Tech \u2014 Clinical Research Coordinator certificate",
+          "type": "Certificate",
+          "location": "Wake County",
+          "highlight": "Online options",
+          "applyUrl": "waketech.edu",
+          "cost": "Free w/ aid",
+          "starts": "Rolling",
+          "info": "919-866-5000"
+        },
+        {
+          "name": "SoCRA CCRP credential",
+          "type": "Industry certification",
+          "location": "Online exam",
+          "highlight": "Widely recognized \u2014 many employers waive degree with this",
+          "applyUrl": "socra.org",
+          "cost": "$295-595 exam",
+          "starts": "Year-round",
+          "info": "Members worldwide"
+        },
+        {
+          "name": "ACRP CCRC credential",
+          "type": "Industry certification",
+          "location": "Online exam",
+          "highlight": "Strong path for CROs",
+          "applyUrl": "acrpnet.org",
+          "cost": "~$595 exam",
+          "starts": "Year-round",
+          "info": "Members worldwide"
+        }
+      ],
+      "jobQuality": {
+        "schedule": "M-F daytime typical at academic medical centers; some patient visits flex into evenings",
+        "benefits": "Strong at Duke / UNC / WakeMed and large CROs \u2014 comprehensive health, retirement, paid leave",
+        "advancement": "Varies by employer \u2014 CROs use CRA/Sr CRA/PM ladders; academic centers use CRC I/II/Sr ladders",
+        "automation": "Low \u2014 regulated trial conduct requires human oversight"
+      },
+      "careerPathway": [
+        {
+          "role": "CRC / CRA (entry)",
+          "wage": "$22-28",
+          "detail": "Cert or AAS + healthcare exp",
+          "current": true
+        },
+        {
+          "role": "CRC II / Sr CRA",
+          "wage": "$30-38",
+          "detail": "2-4 yrs"
+        },
+        {
+          "role": "Research Manager",
+          "wage": "$40-50",
+          "detail": "5-7 yrs"
+        },
+        {
+          "role": "Clinical Project Manager",
+          "wage": "$50-65",
+          "detail": "+ PMP / advanced cert"
+        }
+      ],
+      "skills": [
+        "regulatory documentation",
+        "patient enrollment and consent",
+        "EDC / case-report-form data entry",
+        "Good Clinical Practice (GCP)",
+        "phlebotomy / vital signs (some roles)",
+        "communication with monitors and sponsors"
+      ],
+      "adjacentOccupationIds": [
+        "medical-records-specialist",
+        "medical-assistant",
+        "chemical-tech"
+      ],
+      "lateralFromIds": [
+        "medical-assistant",
+        "chemical-tech"
+      ]
+    },
+    {
       "id": "qc-inspector",
       "title": "Quality Control Inspector",
       "sectorId": "life-sciences-mfg",
@@ -1552,10 +2132,10 @@
         "rangeNote": "$22-25/hr"
       },
       "tags": {
-        "demand": "STEADY DEMAND — EVERY PHARMA SITE NEEDS QC",
-        "automationRisk": "LOW AUTOMATION RISK — JUDGMENT REQUIRED",
+        "demand": "STEADY DEMAND \u2014 EVERY PHARMA SITE NEEDS QC",
+        "automationRisk": "LOW AUTOMATION RISK \u2014 JUDGMENT REQUIRED",
         "entry": "ENTRY: HS DIPLOMA + TRAINING",
-        "criminalRecord": "RECORD: MORE ACCESSIBLE — NO STATE LICENSE"
+        "criminalRecord": "RECORD: MORE ACCESSIBLE \u2014 NO STATE LICENSE"
       },
       "summary": "Inspect products, review documentation, and ensure pharmaceutical quality standards.",
       "byTheNumbers": [
@@ -1611,13 +2191,13 @@
       ],
       "whatYoullDo": [
         "Inspect products and review documentation to ensure FDA and company quality standards are met.",
-        "Every pharmaceutical manufacturing facility requires QC inspectors — steady demand.",
+        "Every pharmaceutical manufacturing facility requires QC inspectors \u2014 steady demand.",
         "Attention to detail and accurate documentation are more important than formal credentials.",
         "Clear advancement path from Inspector to QC Lead to QA Manager."
       ],
       "trainingPrograms": [
         {
-          "name": "NC BioNetwork — Quality Systems Training",
+          "name": "NC BioNetwork \u2014 Quality Systems Training",
           "type": "Pharma QC-focused",
           "location": "Triangle",
           "highlight": "Free for qualifying adults",
@@ -1627,7 +2207,7 @@
           "info": "ncbionetwork.org"
         },
         {
-          "name": "Central Carolina CC — Quality Systems",
+          "name": "Central Carolina CC \u2014 Quality Systems",
           "type": "Certificate",
           "location": "Chatham/Lee",
           "highlight": "Near pharma",
@@ -1647,7 +2227,7 @@
           "info": "asq.org"
         },
         {
-          "name": "Employer OJT — Novo Nordisk/Pfizer/Grifols",
+          "name": "Employer OJT \u2014 Novo Nordisk/Pfizer/Grifols",
           "type": "OJT",
           "location": "Triangle",
           "highlight": "Most pharma employers train QC internally",
@@ -1658,10 +2238,10 @@
         }
       ],
       "jobQuality": {
-        "benefits": "Strong at large pharma — full benefits at Novo Nordisk, Pfizer, GSK, Catalent",
-        "schedule": "Rotating shifts — 12-hr rotating; shift diff adds meaningful income",
-        "advancement": "Inspector to QA — QA cert accelerates advancement; clear internal ladder",
-        "demands": "Detail and docs — FDA audits; accurate records are non-negotiable"
+        "benefits": "Strong at large pharma \u2014 full benefits at Novo Nordisk, Pfizer, GSK, Catalent",
+        "schedule": "Rotating shifts \u2014 12-hr rotating; shift diff adds meaningful income",
+        "advancement": "Inspector to QA \u2014 QA cert accelerates advancement; clear internal ladder",
+        "demands": "Detail and docs \u2014 FDA audits; accurate records are non-negotiable"
       },
       "careerPathway": [
         {
@@ -1721,15 +2301,15 @@
       },
       "tags": {
         "demand": "HIGH VOLUME OF OPENINGS REGIONALLY",
-        "automationRisk": "LOW AUTOMATION RISK — JUDGMENT-BASED WORK",
+        "automationRisk": "LOW AUTOMATION RISK \u2014 JUDGMENT-BASED WORK",
         "entry": "ENTRY: HS DIPLOMA + EMPLOYER TRAINING",
-        "criminalRecord": "RECORD: MORE ACCESSIBLE — NO STATE LICENSE"
+        "criminalRecord": "RECORD: MORE ACCESSIBLE \u2014 NO STATE LICENSE"
       },
       "summary": "Operate production equipment, monitor output, and maintain safety and quality standards.",
       "byTheNumbers": [
         {
           "value": "Entry",
-          "label": "HS diploma — employer provides training"
+          "label": "HS diploma \u2014 employer provides training"
         },
         {
           "value": "$23-26",
@@ -1785,7 +2365,7 @@
       ],
       "trainingPrograms": [
         {
-          "name": "NC BioNetwork — Biomanufacturing Training",
+          "name": "NC BioNetwork \u2014 Biomanufacturing Training",
           "type": "Free training",
           "location": "Triangle",
           "highlight": "Best entry point into pharma",
@@ -1795,7 +2375,7 @@
           "info": "ncbionetwork.org"
         },
         {
-          "name": "Central Carolina CC — Industrial Systems",
+          "name": "Central Carolina CC \u2014 Industrial Systems",
           "type": "Certificate/diploma",
           "location": "Chatham/Lee",
           "highlight": "Near pharma",
@@ -1805,7 +2385,7 @@
           "info": "919-775-5401"
         },
         {
-          "name": "Durham Tech — Advanced Manufacturing",
+          "name": "Durham Tech \u2014 Advanced Manufacturing",
           "type": "Certificate",
           "location": "Durham",
           "highlight": "RTP-aligned curriculum",
@@ -1826,15 +2406,15 @@
         }
       ],
       "jobQuality": {
-        "benefits": "Excellent at large pharma — health, 401k, tuition from day one; shift diff common",
-        "schedule": "Rotating shifts — 12-hr rotating shifts; shift differentials add income",
-        "advancement": "Clear internal ladder — Lead to Supervisor to Mgr; employers promote from within",
-        "training": "Employer provides — most large pharma employers train new hires fully"
+        "benefits": "Excellent at large pharma \u2014 health, 401k, tuition from day one; shift diff common",
+        "schedule": "Rotating shifts \u2014 12-hr rotating shifts; shift differentials add income",
+        "advancement": "Clear internal ladder \u2014 Lead to Supervisor to Mgr; employers promote from within",
+        "training": "Employer provides \u2014 most large pharma employers train new hires fully"
       },
       "careerPathway": [
         {
           "role": "HS Diploma / GED",
-          "detail": "Entry — no exp",
+          "detail": "Entry \u2014 no exp",
           "wage": "$14-18"
         },
         {
@@ -1888,7 +2468,7 @@
         "source": "BLS OEWS May 2024"
       },
       "tags": {
-        "demand": "STRONG LOCAL DEMAND — BIOTECH BOOM",
+        "demand": "STRONG LOCAL DEMAND \u2014 BIOTECH BOOM",
         "automationRisk": "MEDIUM AUTOMATION RISK",
         "entry": "ENTRY: ASSOCIATE DEGREE 2 YRS",
         "criminalRecord": "RECORD: REVIEWED INDIVIDUALLY"
@@ -1953,7 +2533,7 @@
       ],
       "trainingPrograms": [
         {
-          "name": "Durham Tech — Chemical Technology Program",
+          "name": "Durham Tech \u2014 Chemical Technology Program",
           "type": "ADN-level",
           "location": "Durham",
           "highlight": "RTP employer connections",
@@ -1963,7 +2543,7 @@
           "info": "919-536-7200"
         },
         {
-          "name": "NC BioNetwork — Bioprocessing Fundamentals",
+          "name": "NC BioNetwork \u2014 Bioprocessing Fundamentals",
           "type": "Free intro courses",
           "location": "Triangle",
           "highlight": "Best entry for pharma mfg",
@@ -1973,7 +2553,7 @@
           "info": "ncbionetwork.org"
         },
         {
-          "name": "Wake Technical CC — Chemical Technology",
+          "name": "Wake Technical CC \u2014 Chemical Technology",
           "type": "AAS",
           "location": "Wake County",
           "highlight": "Pharma-aligned curriculum",
@@ -1983,7 +2563,7 @@
           "info": "919-866-5000"
         },
         {
-          "name": "Employer-Based Training — Novo Nordisk/Pfizer",
+          "name": "Employer-Based Training \u2014 Novo Nordisk/Pfizer",
           "type": "OJT",
           "location": "Triangle",
           "highlight": "On-the-job training paths at major pharma sites",
@@ -1994,10 +2574,10 @@
         }
       ],
       "jobQuality": {
-        "benefits": "Strong at large pharma — full benefits at Novo Nordisk, Pfizer, GSK, Grifols",
-        "schedule": "Shift work common — 12-hr rotating; shift diff adds meaningful income",
-        "advancement": "Tech to Scientist — ADN to scientist path requires more education",
-        "demands": "Precision and docs — FDA-regulated environments; documentation is critical"
+        "benefits": "Strong at large pharma \u2014 full benefits at Novo Nordisk, Pfizer, GSK, Grifols",
+        "schedule": "Shift work common \u2014 12-hr rotating; shift diff adds meaningful income",
+        "advancement": "Tech to Scientist \u2014 ADN to scientist path requires more education",
+        "demands": "Precision and docs \u2014 FDA-regulated environments; documentation is critical"
       },
       "careerPathway": [
         {
@@ -2053,10 +2633,10 @@
         "source": "BLS OEWS May 2024"
       },
       "tags": {
-        "demand": "STRONG DEMAND — PHARMA BOOM DRIVING JOBS",
-        "automationRisk": "LOW AUTOMATION RISK — TROUBLESHOOTING STAYS HUMAN",
+        "demand": "STRONG DEMAND \u2014 PHARMA BOOM DRIVING JOBS",
+        "automationRisk": "LOW AUTOMATION RISK \u2014 TROUBLESHOOTING STAYS HUMAN",
         "entry": "ENTRY: HS DIPLOMA + ON-THE-JOB TRAINING",
-        "criminalRecord": "RECORD: MORE ACCESSIBLE — NO STATE LICENSE"
+        "criminalRecord": "RECORD: MORE ACCESSIBLE \u2014 NO STATE LICENSE"
       },
       "summary": "Keep production lines running by diagnosing and repairing mechanical, electrical, and hydraulic equipment.",
       "byTheNumbers": [
@@ -2066,7 +2646,7 @@
         },
         {
           "value": "Low",
-          "label": "Automation risk — troubleshooting stays human"
+          "label": "Automation risk \u2014 troubleshooting stays human"
         },
         {
           "value": "Strong",
@@ -2106,19 +2686,19 @@
       ],
       "quickFacts": [
         "$14.7B in pharma/biotech investment drives demand",
-        "No state license required — faster entry",
+        "No state license required \u2014 faster entry",
         "NC BioNetwork offers free training pathways",
         "More automation equals more mechanics needed"
       ],
       "whatYoullDo": [
         "Diagnose and repair mechanical, electrical, and hydraulic faults in production equipment.",
-        "Keep pharma and manufacturing lines running — more automation means more mechanics.",
+        "Keep pharma and manufacturing lines running \u2014 more automation means more mechanics.",
         "Novo Nordisk, Pfizer, GSK, and Grifols actively hiring Triangle mechanics.",
         "Troubleshooting and judgment-based work is among the hardest to automate."
       ],
       "trainingPrograms": [
         {
-          "name": "Central Carolina CC — Industrial Systems Tech",
+          "name": "Central Carolina CC \u2014 Industrial Systems Tech",
           "type": "Certificate/diploma",
           "location": "Chatham/Lee",
           "highlight": "Near pharma",
@@ -2128,7 +2708,7 @@
           "info": "919-775-5401"
         },
         {
-          "name": "Durham Tech — Advanced Mfg/Mechatronics",
+          "name": "Durham Tech \u2014 Advanced Mfg/Mechatronics",
           "type": "Certificate",
           "location": "Durham",
           "highlight": "RTP-aligned curriculum",
@@ -2138,7 +2718,7 @@
           "info": "919-536-7200"
         },
         {
-          "name": "NC BioNetwork — Biomanufacturing Training",
+          "name": "NC BioNetwork \u2014 Biomanufacturing Training",
           "type": "Free/low-cost",
           "location": "Triangle",
           "highlight": "Best entry point",
@@ -2148,7 +2728,7 @@
           "info": "ncbionetwork.org"
         },
         {
-          "name": "NCEdge — Advanced Manufacturing Programs",
+          "name": "NCEdge \u2014 Advanced Manufacturing Programs",
           "type": "Short-term credentials",
           "location": "Triangle",
           "highlight": "Employer-aligned curriculum",
@@ -2159,10 +2739,10 @@
         }
       ],
       "jobQuality": {
-        "benefits": "Excellent at large pharma — Novo Nordisk, Pfizer, GSK; full benefits packages",
-        "schedule": "Shift work common — 12-hr rotating shifts; shift diff meaningful income",
-        "advancement": "Mechanic to Manager — clear ladder; pharma funds certs and education",
-        "demands": "Hands-on precision — physical demands moderate; some chemical exposure"
+        "benefits": "Excellent at large pharma \u2014 Novo Nordisk, Pfizer, GSK; full benefits packages",
+        "schedule": "Shift work common \u2014 12-hr rotating shifts; shift diff meaningful income",
+        "advancement": "Mechanic to Manager \u2014 clear ladder; pharma funds certs and education",
+        "demands": "Hands-on precision \u2014 physical demands moderate; some chemical exposure"
       },
       "careerPathway": [
         {
@@ -2222,9 +2802,9 @@
       },
       "tags": {
         "demand": "STEADY HIGH-VOLUME DEMAND",
-        "automationRisk": "MEDIUM RISK — EV TRANSITION ONGOING",
+        "automationRisk": "MEDIUM RISK \u2014 EV TRANSITION ONGOING",
         "entry": "ENTRY: CERTIFICATE 1-2 YRS OR EMPLOYER TRAINING",
-        "criminalRecord": "RECORD: MORE ACCESSIBLE — NO STATE LICENSE"
+        "criminalRecord": "RECORD: MORE ACCESSIBLE \u2014 NO STATE LICENSE"
       },
       "summary": "Diagnose, service, and repair vehicles including gasoline, hybrid, and electric.",
       "byTheNumbers": [
@@ -2281,12 +2861,12 @@
       "whatYoullDo": [
         "Diagnose, service, and repair gasoline, hybrid, and electric vehicles.",
         "Steady high-volume demand: every car on the road eventually needs service.",
-        "ASE certifications are the key credential — can be earned while working.",
+        "ASE certifications are the key credential \u2014 can be earned while working.",
         "EV/hybrid technology training significantly increases long-term career security."
       ],
       "trainingPrograms": [
         {
-          "name": "Wake Technical CC — Automotive Systems Tech",
+          "name": "Wake Technical CC \u2014 Automotive Systems Tech",
           "type": "Certificate/diploma",
           "location": "Wake County",
           "highlight": "NCCER-aligned",
@@ -2296,7 +2876,7 @@
           "info": "919-866-5000"
         },
         {
-          "name": "Durham Technical CC — Automotive Technology",
+          "name": "Durham Technical CC \u2014 Automotive Technology",
           "type": "Certificate",
           "location": "Durham",
           "highlight": "Industry connections",
@@ -2306,7 +2886,7 @@
           "info": "919-536-7200"
         },
         {
-          "name": "Employer OJT Path — Common at Dealerships",
+          "name": "Employer OJT Path \u2014 Common at Dealerships",
           "type": "OJT",
           "location": "Triangle",
           "highlight": "Many dealerships hire and train alongside ASE cert",
@@ -2316,10 +2896,10 @@
           "info": "Employer HR dept."
         },
         {
-          "name": "ASE Certifications — Industry Standard",
+          "name": "ASE Certifications \u2014 Industry Standard",
           "type": "Cert",
           "location": "Online/test centers",
-          "highlight": "Automotive Service Excellence — key advancement credential",
+          "highlight": "Automotive Service Excellence \u2014 key advancement credential",
           "applyUrl": "ase.com to register",
           "cost": "~$35-80 per exam",
           "starts": "Rolling admission",
@@ -2327,10 +2907,10 @@
         }
       ],
       "jobQuality": {
-        "benefits": "Vary by employer — large dealerships offer health; independent shops vary",
-        "schedule": "Physical; shop — typically M-Sat; some shops offer M-F schedule",
-        "advancement": "ASE certs drive pay — each ASE certification adds $1-3/hr; Master Tech top",
-        "evTransition": "Upskill now — EV training adds security; drivetrains changing"
+        "benefits": "Vary by employer \u2014 large dealerships offer health; independent shops vary",
+        "schedule": "Physical; shop \u2014 typically M-Sat; some shops offer M-F schedule",
+        "advancement": "ASE certs drive pay \u2014 each ASE certification adds $1-3/hr; Master Tech top",
+        "evTransition": "Upskill now \u2014 EV training adds security; drivetrains changing"
       },
       "careerPathway": [
         {
@@ -2451,7 +3031,7 @@
       ],
       "trainingPrograms": [
         {
-          "name": "Wake Technical CC — Air Cond./Refrigeration",
+          "name": "Wake Technical CC \u2014 Air Cond./Refrigeration",
           "type": "Certificate",
           "location": "Wake County",
           "highlight": "NCCER-aligned",
@@ -2461,7 +3041,7 @@
           "info": "919-866-5000"
         },
         {
-          "name": "Durham Technical CC — HVAC Technology",
+          "name": "Durham Technical CC \u2014 HVAC Technology",
           "type": "Certificate",
           "location": "Durham",
           "highlight": "Industry connections",
@@ -2471,7 +3051,7 @@
           "info": "919-536-7200"
         },
         {
-          "name": "Employer OJT Path — Common in HVAC",
+          "name": "Employer OJT Path \u2014 Common in HVAC",
           "type": "OJT",
           "location": "Triangle",
           "highlight": "Many HVAC employers hire and train on the job",
@@ -2481,7 +3061,7 @@
           "info": "Employer HR dept."
         },
         {
-          "name": "EPA 608 Certification — Refrigerants",
+          "name": "EPA 608 Certification \u2014 Refrigerants",
           "type": "Cert",
           "location": "Online/test centers",
           "highlight": "Required to work with refrigerants; can take after OJT",
@@ -2492,10 +3072,10 @@
         }
       ],
       "jobQuality": {
-        "benefits": "Vary by employer — commercial contractors better; residential shops vary",
-        "schedule": "Physical; some on-call — heat and confined spaces; on-call for emergency service",
-        "advancement": "Tech to Commercial — commercial specialization adds $10+/hr; own business possible",
-        "training": "OJT path available — many employers hire and train; EPA 608 required"
+        "benefits": "Vary by employer \u2014 commercial contractors better; residential shops vary",
+        "schedule": "Physical; some on-call \u2014 heat and confined spaces; on-call for emergency service",
+        "advancement": "Tech to Commercial \u2014 commercial specialization adds $10+/hr; own business possible",
+        "training": "OJT path available \u2014 many employers hire and train; EPA 608 required"
       },
       "careerPathway": [
         {
@@ -2554,9 +3134,9 @@
         "source": "BLS OEWS May 2024"
       },
       "tags": {
-        "demand": "CHRONIC SHORTAGE — 29% OF ALL TRADES OPENINGS",
-        "automationRisk": "LOW AUTOMATION RISK — SITE JUDGMENT",
-        "entry": "ENTRY: APPRENTICESHIP — EARN FROM DAY 1",
+        "demand": "CHRONIC SHORTAGE \u2014 29% OF ALL TRADES OPENINGS",
+        "automationRisk": "LOW AUTOMATION RISK \u2014 SITE JUDGMENT",
+        "entry": "ENTRY: APPRENTICESHIP \u2014 EARN FROM DAY 1",
         "criminalRecord": "RECORD: MORE ACCESSIBLE"
       },
       "summary": "Install, maintain, and repair electrical systems in homes, commercial buildings, and data centers.",
@@ -2571,7 +3151,7 @@
         },
         {
           "value": "4-5 yr",
-          "label": "Apprenticeship — paid from day one"
+          "label": "Apprenticeship \u2014 paid from day one"
         },
         {
           "value": "$55+",
@@ -2607,19 +3187,19 @@
       ],
       "quickFacts": [
         "IBEW apprenticeship pays from day one",
-        "No student debt — earn while you learn",
+        "No student debt \u2014 earn while you learn",
         "Triangle data center boom drives urgent demand",
         "Master electricians can start their own business"
       ],
       "whatYoullDo": [
         "Install, maintain, and repair electrical systems in homes, buildings, and data centers.",
-        "Triangle building boom — data centers, pharma facilities, housing driving urgent demand.",
-        "IBEW apprenticeship pays from day one — no tuition debt, wages rise every 6 months.",
-        "Master electricians commonly start their own businesses — uncapped earning ceiling."
+        "Triangle building boom \u2014 data centers, pharma facilities, housing driving urgent demand.",
+        "IBEW apprenticeship pays from day one \u2014 no tuition debt, wages rise every 6 months.",
+        "Master electricians commonly start their own businesses \u2014 uncapped earning ceiling."
       ],
       "trainingPrograms": [
         {
-          "name": "IBEW Local 553 Apprenticeship — Raleigh-Durham",
+          "name": "IBEW Local 553 Apprenticeship \u2014 Raleigh-Durham",
           "type": "5-yr registered appr.",
           "location": "Raleigh-Durham",
           "highlight": "Paid from day 1; best benefits",
@@ -2629,7 +3209,7 @@
           "info": "(919) 828-6511"
         },
         {
-          "name": "Wake Technical CC — Electrical Systems Tech",
+          "name": "Wake Technical CC \u2014 Electrical Systems Tech",
           "type": "Certificate/diploma",
           "location": "Wake County",
           "highlight": "NCCER-aligned; evening options",
@@ -2639,7 +3219,7 @@
           "info": "919-866-5000"
         },
         {
-          "name": "ABC Chapter NC — Non-Union Apprenticeship",
+          "name": "ABC Chapter NC \u2014 Non-Union Apprenticeship",
           "type": "Apprenticeship",
           "location": "Triangle",
           "highlight": "Associated Builders and Contractors; employer-sponsored",
@@ -2649,7 +3229,7 @@
           "info": "abcnc.org"
         },
         {
-          "name": "Note — OJT Path Available",
+          "name": "Note \u2014 OJT Path Available",
           "type": "OJT",
           "location": "Triangle",
           "highlight": "Some employers hire and train on-the-job then help license",
@@ -2660,10 +3240,10 @@
         }
       ],
       "jobQuality": {
-        "benefits": "IBEW union excellent — health, pension, annuity from day 1; non-union varies",
-        "schedule": "Site-based; physical — lifting, heights, confined spaces; safety training thorough",
-        "advancement": "Apprentice to Master — steepest wage ladder in any trade; own business ceiling",
-        "automation": "Low risk — site-specific judgment resists automation"
+        "benefits": "IBEW union excellent \u2014 health, pension, annuity from day 1; non-union varies",
+        "schedule": "Site-based; physical \u2014 lifting, heights, confined spaces; safety training thorough",
+        "advancement": "Apprentice to Master \u2014 steepest wage ladder in any trade; own business ceiling",
+        "automation": "Low risk \u2014 site-specific judgment resists automation"
       },
       "careerPathway": [
         {
@@ -2723,7 +3303,7 @@
         "rangeNote": "$29-32/hr"
       },
       "tags": {
-        "demand": "HIGH DEMAND — CHRONIC SHORTAGE",
+        "demand": "HIGH DEMAND \u2014 CHRONIC SHORTAGE",
         "automationRisk": "LOW AUTOMATION RISK",
         "entry": "ENTRY: APPRENTICESHIP OR OJT + CERTIFICATION",
         "criminalRecord": "RECORD: MORE ACCESSIBLE"
@@ -2782,13 +3362,13 @@
       ],
       "whatYoullDo": [
         "Install and repair water, drainage, and gas systems in homes and commercial buildings.",
-        "Triangle building boom — residential, commercial, and industrial all creating urgent demand.",
+        "Triangle building boom \u2014 residential, commercial, and industrial all creating urgent demand.",
         "Apprenticeship is the best path: earn a wage from day one, no tuition debt.",
         "Many employers will hire HS graduates, train on the job, then help you get licensed."
       ],
       "trainingPrograms": [
         {
-          "name": "UA Local 421 — Plumbing Apprenticeship",
+          "name": "UA Local 421 \u2014 Plumbing Apprenticeship",
           "type": "Registered apprenticeship",
           "location": "Triangle",
           "highlight": "United Assoc. registered appr.; paid from day 1",
@@ -2798,7 +3378,7 @@
           "info": "uazone.org/421"
         },
         {
-          "name": "Wake Technical CC — Plumbing Technology",
+          "name": "Wake Technical CC \u2014 Plumbing Technology",
           "type": "Certificate",
           "location": "Wake County",
           "highlight": "NCCER-aligned",
@@ -2808,7 +3388,7 @@
           "info": "919-866-5000"
         },
         {
-          "name": "Employer OJT Path — Common in Plumbing",
+          "name": "Employer OJT Path \u2014 Common in Plumbing",
           "type": "OJT",
           "location": "Triangle",
           "highlight": "Many employers hire HS graduates and train fully",
@@ -2818,7 +3398,7 @@
           "info": "Employer HR dept."
         },
         {
-          "name": "NC Licensed Plumber — State Board",
+          "name": "NC Licensed Plumber \u2014 State Board",
           "type": "License",
           "location": "Statewide",
           "highlight": "Required to work independently",
@@ -2829,10 +3409,10 @@
         }
       ],
       "jobQuality": {
-        "benefits": "Vary by employer — union apprenticeships excellent; non-union shops vary",
-        "schedule": "Physical; variable — site-based work; some on-call for emergency service",
-        "advancement": "Apprentice to Master — own business ceiling; master license opens doors",
-        "training": "OJT widely available — many employers hire and train; ask before enrolling in CC"
+        "benefits": "Vary by employer \u2014 union apprenticeships excellent; non-union shops vary",
+        "schedule": "Physical; variable \u2014 site-based work; some on-call for emergency service",
+        "advancement": "Apprentice to Master \u2014 own business ceiling; master license opens doors",
+        "training": "OJT widely available \u2014 many employers hire and train; ask before enrolling in CC"
       },
       "careerPathway": [
         {
@@ -2890,7 +3470,7 @@
       },
       "tags": {
         "demand": "STEADY DEMAND ACROSS ALL SECTORS",
-        "automationRisk": "MEDIUM RISK — TIER-1 EVOLVING",
+        "automationRisk": "MEDIUM RISK \u2014 TIER-1 EVOLVING",
         "entry": "ENTRY: CERTIFICATE 1 YEAR",
         "criminalRecord": "RECORD: MORE ACCESSIBLE"
       },
@@ -2949,7 +3529,7 @@
       "whatYoullDo": [
         "Help employees and customers troubleshoot hardware, software, and network issues.",
         "Strong entry point into IT: most organizations hire support specialists regularly.",
-        "CompTIA A+ is the standard credential — can be earned before or while working.",
+        "CompTIA A+ is the standard credential \u2014 can be earned before or while working.",
         "Clear ladder to network support ($43/hr) and cybersecurity ($40-45/hr)."
       ],
       "trainingPrograms": [
@@ -2957,14 +3537,14 @@
           "name": "CompTIA A+ Certification",
           "type": "Cert",
           "location": "Online/test centers",
-          "highlight": "Industry standard — entry credential for all IT support roles",
+          "highlight": "Industry standard \u2014 entry credential for all IT support roles",
           "applyUrl": "comptia.org/a-plus",
           "cost": "~$250 exam fee",
           "starts": "Rolling admission",
           "info": "comptia.org"
         },
         {
-          "name": "Durham Technical CC — IT Systems Support",
+          "name": "Durham Technical CC \u2014 IT Systems Support",
           "type": "Certificate",
           "location": "Durham",
           "highlight": "RTP employer connections",
@@ -2974,7 +3554,7 @@
           "info": "919-536-7200"
         },
         {
-          "name": "Wake Technical CC — IT Support Specialist",
+          "name": "Wake Technical CC \u2014 IT Support Specialist",
           "type": "Certificate/diploma",
           "location": "Wake County",
           "highlight": "",
@@ -2984,7 +3564,7 @@
           "info": "919-866-5000"
         },
         {
-          "name": "Google IT Support Certificate — Online",
+          "name": "Google IT Support Certificate \u2014 Online",
           "type": "Cert",
           "location": "Online",
           "highlight": "Coursera-based; self-paced; 6 months avg",
@@ -2995,10 +3575,10 @@
         }
       ],
       "jobQuality": {
-        "benefits": "Vary by employer — large employers better; MSPs and small firms vary",
-        "schedule": "Standard office — mostly M-F; some on-call for urgent issues",
-        "advancement": "Clear IT ladder — A+ to Network+ to Security+; each cert raises pay",
-        "automation": "Tier-1 evolving — AI handles basic tickets; complex troubleshooting human"
+        "benefits": "Vary by employer \u2014 large employers better; MSPs and small firms vary",
+        "schedule": "Standard office \u2014 mostly M-F; some on-call for urgent issues",
+        "advancement": "Clear IT ladder \u2014 A+ to Network+ to Security+; each cert raises pay",
+        "automation": "Tier-1 evolving \u2014 AI handles basic tickets; complex troubleshooting human"
       },
       "careerPathway": [
         {
@@ -3059,7 +3639,7 @@
         "demand": "FASTEST GROWING IT ROLE IN REGION",
         "automationRisk": "LOW AUTOMATION RISK",
         "entry": "ENTRY: CERTIFICATE OR ASSOCIATE DEGREE",
-        "criminalRecord": "RECORD: VARIES — SOME ROLES REQUIRE CLEARANCE"
+        "criminalRecord": "RECORD: VARIES \u2014 SOME ROLES REQUIRE CLEARANCE"
       },
       "summary": "Protect organizational networks, systems, and data from cyber threats.",
       "byTheNumbers": [
@@ -3073,7 +3653,7 @@
         },
         {
           "value": "Low",
-          "label": "Automation risk — security stays human"
+          "label": "Automation risk \u2014 security stays human"
         },
         {
           "value": "All",
@@ -3115,13 +3695,13 @@
       ],
       "whatYoullDo": [
         "Protect networks, systems, and data from cyber threats across all sectors.",
-        "Fastest-growing IT role — demand across healthcare, finance, government, and tech.",
+        "Fastest-growing IT role \u2014 demand across healthcare, finance, government, and tech.",
         "Certifications (Security+, CISSP) are the key to entry without a BA.",
         "Remote and hybrid work options widely available across the Triangle."
       ],
       "trainingPrograms": [
         {
-          "name": "CompTIA Security+ — Entry Standard Cert",
+          "name": "CompTIA Security+ \u2014 Entry Standard Cert",
           "type": "Cert",
           "location": "Online/test centers",
           "highlight": "Industry standard for all security roles",
@@ -3131,7 +3711,7 @@
           "info": "comptia.org"
         },
         {
-          "name": "Durham Technical CC — Cybersecurity Program",
+          "name": "Durham Technical CC \u2014 Cybersecurity Program",
           "type": "AAS degree",
           "location": "Durham",
           "highlight": "Strong employer connections",
@@ -3141,7 +3721,7 @@
           "info": "919-536-7200"
         },
         {
-          "name": "Wake Technical CC — Cybersecurity",
+          "name": "Wake Technical CC \u2014 Cybersecurity",
           "type": "AAS/diploma",
           "location": "Wake County",
           "highlight": "Digital forensics track",
@@ -3151,7 +3731,7 @@
           "info": "919-866-5000"
         },
         {
-          "name": "SANS Institute — Security Training",
+          "name": "SANS Institute \u2014 Security Training",
           "type": "Industry training",
           "location": "Various",
           "highlight": "Intensive industry-recognized security training",
@@ -3162,10 +3742,10 @@
         }
       ],
       "jobQuality": {
-        "benefits": "Strong across sectors — finance and tech lead; healthcare and govt. also strong",
-        "schedule": "Primarily standard — standard hours; some on-call for incident response",
-        "advancement": "Analyst to Manager — security clearance opens federal roles at premium pay",
-        "automation": "AI assists not replaces — threat analysis remains human judgment"
+        "benefits": "Strong across sectors \u2014 finance and tech lead; healthcare and govt. also strong",
+        "schedule": "Primarily standard \u2014 standard hours; some on-call for incident response",
+        "advancement": "Analyst to Manager \u2014 security clearance opens federal roles at premium pay",
+        "automation": "AI assists not replaces \u2014 threat analysis remains human judgment"
       },
       "careerPathway": [
         {
@@ -3230,7 +3810,7 @@
       "byTheNumbers": [
         {
           "value": "$43.08",
-          "label": "Median hourly Raleigh-Durham — highest sub-BA IT"
+          "label": "Median hourly Raleigh-Durham \u2014 highest sub-BA IT"
         },
         {
           "value": "Strong",
@@ -3281,12 +3861,12 @@
       "whatYoullDo": [
         "Design, install, and support computer networks for businesses and organizations.",
         "Strong demand across RTP, healthcare systems, financial services, and government.",
-        "Remote and hybrid work widely available — strong option for work-life balance.",
+        "Remote and hybrid work widely available \u2014 strong option for work-life balance.",
         "Clear ladder: network support to network engineer to IT management."
       ],
       "trainingPrograms": [
         {
-          "name": "Durham Technical CC — Network Management",
+          "name": "Durham Technical CC \u2014 Network Management",
           "type": "AAS degree",
           "location": "Durham",
           "highlight": "RTP employer connections",
@@ -3296,7 +3876,7 @@
           "info": "919-536-7200"
         },
         {
-          "name": "Wake Technical CC — Computer Networking",
+          "name": "Wake Technical CC \u2014 Computer Networking",
           "type": "AAS/diploma",
           "location": "Wake County",
           "highlight": "Multiple tracks",
@@ -3309,14 +3889,14 @@
           "name": "CompTIA Network+ Certification",
           "type": "Cert",
           "location": "Online/test centers",
-          "highlight": "Industry standard — required for most network roles",
+          "highlight": "Industry standard \u2014 required for most network roles",
           "applyUrl": "comptia.org/certifications",
           "cost": "~$350 exam fee",
           "starts": "Rolling admission",
           "info": "comptia.org"
         },
         {
-          "name": "NCWorks IT Pathways — Short-Term Training",
+          "name": "NCWorks IT Pathways \u2014 Short-Term Training",
           "type": "Accelerated",
           "location": "Triangle locations",
           "highlight": "Cert prep",
@@ -3327,10 +3907,10 @@
         }
       ],
       "jobQuality": {
-        "benefits": "Excellent across sectors — tech and healthcare employers offer strong benefits",
-        "schedule": "Standard w/ flexibility — remote/hybrid common; some on-call for outages",
-        "advancement": "Network to Engineer — CompTIA certs accelerate advancement significantly",
-        "automation": "Technical tasks secure — Tier-1 support changing; network design stays human"
+        "benefits": "Excellent across sectors \u2014 tech and healthcare employers offer strong benefits",
+        "schedule": "Standard w/ flexibility \u2014 remote/hybrid common; some on-call for outages",
+        "advancement": "Network to Engineer \u2014 CompTIA certs accelerate advancement significantly",
+        "automation": "Technical tasks secure \u2014 Tier-1 support changing; network design stays human"
       },
       "careerPathway": [
         {
@@ -3386,16 +3966,16 @@
         "source": "BLS OEWS May 2024"
       },
       "tags": {
-        "demand": "HIGH VOLUME — DRIVEN BY TURNOVER",
-        "automationRisk": "MEDIUM AUTOMATION RISK — LONG-TERM HORIZON",
+        "demand": "HIGH VOLUME \u2014 DRIVEN BY TURNOVER",
+        "automationRisk": "MEDIUM AUTOMATION RISK \u2014 LONG-TERM HORIZON",
         "entry": "ENTRY: CDL CERTIFICATE 6-8 WEEKS",
-        "criminalRecord": "RECORD: CDL HAS FEDERAL RESTRICTIONS — CHECK FMCSA"
+        "criminalRecord": "RECORD: CDL HAS FEDERAL RESTRICTIONS \u2014 CHECK FMCSA"
       },
       "summary": "Transport freight and goods across local, regional, and national routes.",
       "byTheNumbers": [
         {
           "value": "6-8 wks",
-          "label": "CDL cert — one of fastest trade creds"
+          "label": "CDL cert \u2014 one of fastest trade creds"
         },
         {
           "value": "$24.66",
@@ -3446,12 +4026,12 @@
       "whatYoullDo": [
         "Transport goods across local, regional, and national routes for major carriers.",
         "High volume of openings driven by turnover and an aging driver workforce.",
-        "CDL certificate takes only 6-8 weeks — one of the fastest trade credentials.",
+        "CDL certificate takes only 6-8 weeks \u2014 one of the fastest trade credentials.",
         "Short-haul and local delivery roles are more secure from automation."
       ],
       "trainingPrograms": [
         {
-          "name": "Wake Technical CC — CDL Training Program",
+          "name": "Wake Technical CC \u2014 CDL Training Program",
           "type": "6-8 week CDL-A",
           "location": "Wake County",
           "highlight": "Job placement help",
@@ -3461,7 +4041,7 @@
           "info": "919-866-5000"
         },
         {
-          "name": "Central Carolina CC — CDL Program",
+          "name": "Central Carolina CC \u2014 CDL Program",
           "type": "CDL-A",
           "location": "Chatham/Lee campuses",
           "highlight": "Central Triangle",
@@ -3471,7 +4051,7 @@
           "info": "919-775-5401"
         },
         {
-          "name": "Employer-Sponsored CDL — Amazon/FedEx/UPS",
+          "name": "Employer-Sponsored CDL \u2014 Amazon/FedEx/UPS",
           "type": "Sponsored",
           "location": "Triangle",
           "highlight": "Major carriers often sponsor CDL training",
@@ -3481,7 +4061,7 @@
           "info": "Carrier HR dept."
         },
         {
-          "name": "NCWorks Career Centers — CDL Support",
+          "name": "NCWorks Career Centers \u2014 CDL Support",
           "type": "Navigation",
           "location": "Triangle",
           "highlight": "Navigation and funding help for CDL pathway",
@@ -3492,10 +4072,10 @@
         }
       ],
       "jobQuality": {
-        "benefits": "Variable — Amazon, FedEx, UPS good; smaller carriers vary widely",
-        "schedule": "Irregular hours — local delivery predictable; long-haul time away",
-        "advancement": "Driver to Manager — long path; dispatcher and logistics adjacent step",
-        "automation": "Long-term risk — short-haul more secure; 10-15 yr horizon"
+        "benefits": "Variable \u2014 Amazon, FedEx, UPS good; smaller carriers vary widely",
+        "schedule": "Irregular hours \u2014 local delivery predictable; long-haul time away",
+        "advancement": "Driver to Manager \u2014 long path; dispatcher and logistics adjacent step",
+        "automation": "Long-term risk \u2014 short-haul more secure; 10-15 yr horizon"
       },
       "careerPathway": [
         {
@@ -3550,20 +4130,20 @@
         "source": "BLS OEWS May 2024"
       },
       "tags": {
-        "demand": "GROWING — E-COMMERCE DRIVES DEMAND",
-        "automationRisk": "LOW AUTOMATION RISK — DECISION-BASED WORK",
+        "demand": "GROWING \u2014 E-COMMERCE DRIVES DEMAND",
+        "automationRisk": "LOW AUTOMATION RISK \u2014 DECISION-BASED WORK",
         "entry": "ENTRY: HS + EXPERIENCE (NO DEGREE REQUIRED)",
-        "criminalRecord": "RECORD: BACKGROUND CHECK — VARIES BY EMPLOYER"
+        "criminalRecord": "RECORD: BACKGROUND CHECK \u2014 VARIES BY EMPLOYER"
       },
       "summary": "Oversee transportation and logistics operations including scheduling, compliance, and team management.",
       "byTheNumbers": [
         {
           "value": "$52.49",
-          "label": "Median hourly Raleigh-Durham — top sub-BA"
+          "label": "Median hourly Raleigh-Durham \u2014 top sub-BA"
         },
         {
           "value": "HS+Exp",
-          "label": "No degree required — experience pathway"
+          "label": "No degree required \u2014 experience pathway"
         },
         {
           "value": "Growing",
@@ -3603,19 +4183,19 @@
       ],
       "quickFacts": [
         "Highest sub-BA wage in the guide at $52.49/hr",
-        "Experience pathway — no degree required",
+        "Experience pathway \u2014 no degree required",
         "CDL is often the entry point to eventual management",
         "E-commerce growth sustains strong demand"
       ],
       "whatYoullDo": [
         "Oversee transportation and logistics operations at distribution centers and carriers.",
         "Manage driver teams, schedules, compliance, and customer expectations.",
-        "Experience pathway: no degree required — advancement from dispatcher or CDL roles.",
+        "Experience pathway: no degree required \u2014 advancement from dispatcher or CDL roles.",
         "E-commerce expansion and Triangle population growth sustaining demand."
       ],
       "trainingPrograms": [
         {
-          "name": "Wake Technical CC — Logistics and SCM",
+          "name": "Wake Technical CC \u2014 Logistics and SCM",
           "type": "Certificate and AAS",
           "location": "Wake County",
           "highlight": "",
@@ -3625,7 +4205,7 @@
           "info": "919-866-5000"
         },
         {
-          "name": "Durham Technical CC — Business Admin / Logistics",
+          "name": "Durham Technical CC \u2014 Business Admin / Logistics",
           "type": "AAS",
           "location": "Durham",
           "highlight": "",
@@ -3656,10 +4236,10 @@
         }
       ],
       "jobQuality": {
-        "benefits": "Strong at large carriers — Amazon, FedEx, UPS full benefits",
-        "schedule": "Standard with oversight — M-F with on-call; some shift-based ops",
-        "advancement": "Manager to Director — experience and certs enable $70+/hr ceiling",
-        "automation": "Decision-based work — judgment and team leadership stay human"
+        "benefits": "Strong at large carriers \u2014 Amazon, FedEx, UPS full benefits",
+        "schedule": "Standard with oversight \u2014 M-F with on-call; some shift-based ops",
+        "advancement": "Manager to Director \u2014 experience and certs enable $70+/hr ceiling",
+        "automation": "Decision-based work \u2014 judgment and team leadership stay human"
       },
       "careerPathway": [
         {
@@ -3720,7 +4300,7 @@
         "demand": "1,500 ANNUAL OPENINGS IN LANDSCAPING/GROUNDS",
         "automationRisk": "LOW AUTOMATION RISK",
         "entry": "ENTRY: HS DIPLOMA + ON-THE-JOB TRAINING",
-        "criminalRecord": "RECORD: MORE ACCESSIBLE — ASK EACH AGENCY"
+        "criminalRecord": "RECORD: MORE ACCESSIBLE \u2014 ASK EACH AGENCY"
       },
       "summary": "Maintain parks, stormwater systems, urban forestry, and solid waste across Triangle.",
       "byTheNumbers": [
@@ -3776,9 +4356,9 @@
       ],
       "whatYoullDo": [
         "Maintain parks, stormwater systems, urban forestry, and solid waste across the Triangle.",
-        "Triangle cities densifying and suburbs expanding — demand growing across all four counties.",
+        "Triangle cities densifying and suburbs expanding \u2014 demand growing across all four counties.",
         "Johnston County and other fast-growing areas building new sanitation and stormwater units.",
-        "Raleigh's Rain Garden Apprenticeship model is expanding — green infrastructure is the future."
+        "Raleigh's Rain Garden Apprenticeship model is expanding \u2014 green infrastructure is the future."
       ],
       "trainingPrograms": [
         {
@@ -3792,7 +4372,7 @@
           "info": "Agency HR dept."
         },
         {
-          "name": "Wake Technical CC — Landscape Horticulture",
+          "name": "Wake Technical CC \u2014 Landscape Horticulture",
           "type": "Certificate",
           "location": "Wake County",
           "highlight": "Urban forestry focus",
@@ -3812,7 +4392,7 @@
           "info": "raleighnc.gov/parks"
         },
         {
-          "name": "NCWorks Career Centers — Public Works",
+          "name": "NCWorks Career Centers \u2014 Public Works",
           "type": "Navigation",
           "location": "Triangle",
           "highlight": "Help for public works pathway",
@@ -3823,10 +4403,10 @@
         }
       ],
       "jobQuality": {
-        "benefits": "Excellent public — State Health Plan, pension, paid leave standard",
-        "schedule": "Variable by role — field work often M-F; some weekend park coverage",
-        "advancement": "Worker to Supervisor — clear ladder with certs; green skills valued",
-        "stability": "Essential services — parks and stormwater never stop — high security"
+        "benefits": "Excellent public \u2014 State Health Plan, pension, paid leave standard",
+        "schedule": "Variable by role \u2014 field work often M-F; some weekend park coverage",
+        "advancement": "Worker to Supervisor \u2014 clear ladder with certs; green skills valued",
+        "stability": "Essential services \u2014 parks and stormwater never stop \u2014 high security"
       },
       "careerPathway": [
         {
@@ -3883,10 +4463,10 @@
         "rangeNote": "$23-27/hr"
       },
       "tags": {
-        "demand": "52 ANNUAL OPENINGS — HIGH VACANCY RATE",
-        "automationRisk": "LOW AUTOMATION RISK — JUDGMENT REQUIRED",
+        "demand": "52 ANNUAL OPENINGS \u2014 HIGH VACANCY RATE",
+        "automationRisk": "LOW AUTOMATION RISK \u2014 JUDGMENT REQUIRED",
         "entry": "ENTRY: HS DIPLOMA + OJT + CERT",
-        "criminalRecord": "RECORD: MORE ACCESSIBLE — ASK EACH AGENCY"
+        "criminalRecord": "RECORD: MORE ACCESSIBLE \u2014 ASK EACH AGENCY"
       },
       "summary": "Operate and maintain water treatment, distribution, and wastewater systems.",
       "byTheNumbers": [
@@ -3942,7 +4522,7 @@
       ],
       "whatYoullDo": [
         "Operate and maintain water treatment, distribution, and wastewater systems.",
-        "Every municipality needs utilities technicians — persistent vacancies region-wide.",
+        "Every municipality needs utilities technicians \u2014 persistent vacancies region-wide.",
         "Most agencies hire and train on the job, then support certification exams.",
         "Climate resilience and sustainability work is increasingly central to this role."
       ],
@@ -3958,7 +4538,7 @@
           "info": "ncrwa.com"
         },
         {
-          "name": "Wake Technical CC — Environmental Mgmt Tech",
+          "name": "Wake Technical CC \u2014 Environmental Mgmt Tech",
           "type": "Certificate/diploma",
           "location": "Wake County",
           "highlight": "Water focus",
@@ -3989,10 +4569,10 @@
         }
       ],
       "jobQuality": {
-        "benefits": "Excellent public — State Health Plan, pension, paid leave standard",
-        "schedule": "Variable; some shifts — rotating shifts at plants; some emergency callout",
-        "advancement": "Clear internal — Tech II to Lead to Supervisor; well-defined ladder",
-        "stability": "Mission-critical — water never stops flowing; high stability"
+        "benefits": "Excellent public \u2014 State Health Plan, pension, paid leave standard",
+        "schedule": "Variable; some shifts \u2014 rotating shifts at plants; some emergency callout",
+        "advancement": "Clear internal \u2014 Tech II to Lead to Supervisor; well-defined ladder",
+        "stability": "Mission-critical \u2014 water never stops flowing; high stability"
       },
       "careerPathway": [
         {
@@ -4048,10 +4628,10 @@
         "source": "BLS OEWS May 2024"
       },
       "tags": {
-        "demand": "STEADY DEMAND — COMMUNITY-ESSENTIAL ROLE",
+        "demand": "STEADY DEMAND \u2014 COMMUNITY-ESSENTIAL ROLE",
         "automationRisk": "LOW AUTOMATION RISK",
         "entry": "ENTRY: EMT CERT + FIRE ACADEMY 6-12 MONTHS",
-        "criminalRecord": "RECORD: BACKGROUND CHECK — VARIES BY OFFENSE"
+        "criminalRecord": "RECORD: BACKGROUND CHECK \u2014 VARIES BY OFFENSE"
       },
       "summary": "Respond to fires, medical emergencies, and rescue situations across all four counties.",
       "byTheNumbers": [
@@ -4108,12 +4688,12 @@
       "whatYoullDo": [
         "Respond to fires, medical emergencies, and rescue situations.",
         "Strong public sector benefits: pension, State Health Plan, paid leave.",
-        "EMT certification is the standard entry — fire academy follows.",
+        "EMT certification is the standard entry \u2014 fire academy follows.",
         "Clear ladder from EMT to Firefighter to Lieutenant to Captain to Chief."
       ],
       "trainingPrograms": [
         {
-          "name": "Wake Technical CC — EMT and Fire Programs",
+          "name": "Wake Technical CC \u2014 EMT and Fire Programs",
           "type": "EMT-B and Firefighter I/II",
           "location": "Wake County",
           "highlight": "",
@@ -4123,7 +4703,7 @@
           "info": "919-866-5000"
         },
         {
-          "name": "Durham Technical CC — EMT Program",
+          "name": "Durham Technical CC \u2014 EMT Program",
           "type": "Cert",
           "location": "Durham",
           "highlight": "Emergency Medical Technician",
@@ -4133,7 +4713,7 @@
           "info": "919-536-7200"
         },
         {
-          "name": "Agency Fire Academies — Durham/Wake/Johnston",
+          "name": "Agency Fire Academies \u2014 Durham/Wake/Johnston",
           "type": "Academy",
           "location": "Triangle",
           "highlight": "Most large depts. run own academies for recruits",
@@ -4154,10 +4734,10 @@
         }
       ],
       "jobQuality": {
-        "benefits": "Strong public — pension, State Health Plan, paid leave — excellent",
-        "schedule": "24-on/48-off — some flexibility; shift work inherent",
-        "advancement": "EMT to Captain — paramedic cert accelerates advancement",
-        "demands": "High risk — inherently high risk; team-oriented culture"
+        "benefits": "Strong public \u2014 pension, State Health Plan, paid leave \u2014 excellent",
+        "schedule": "24-on/48-off \u2014 some flexibility; shift work inherent",
+        "advancement": "EMT to Captain \u2014 paramedic cert accelerates advancement",
+        "demands": "High risk \u2014 inherently high risk; team-oriented culture"
       },
       "careerPathway": [
         {
@@ -4214,10 +4794,10 @@
         "rangeNote": "$28-35/hr"
       },
       "tags": {
-        "demand": "HIGH NEED AND HARD TO FILL — ALL FOUR COUNTIES",
-        "automationRisk": "LOW AUTOMATION RISK — HUMAN JUDGMENT ESSENTIAL",
+        "demand": "HIGH NEED AND HARD TO FILL \u2014 ALL FOUR COUNTIES",
+        "automationRisk": "LOW AUTOMATION RISK \u2014 HUMAN JUDGMENT ESSENTIAL",
         "entry": "ENTRY: ASSOCIATE OR BACHELOR DEGREE",
-        "criminalRecord": "RECORD: BACKGROUND CHECK REQUIRED — VARIES"
+        "criminalRecord": "RECORD: BACKGROUND CHECK REQUIRED \u2014 VARIES"
       },
       "summary": "Provide case management, family support, and human services coordination.",
       "byTheNumbers": [
@@ -4273,23 +4853,23 @@
       ],
       "whatYoullDo": [
         "Provide case management, family support, and coordination across county social services.",
-        "Healthcare is the top feeder industry into this role — care coordination skills transfer.",
+        "Healthcare is the top feeder industry into this role \u2014 care coordination skills transfer.",
         "Wake County launching a pilot Social Services pre-apprenticeship program in Summer 2026.",
         "State Health Plan, pension, and loan forgiveness options make this competitive."
       ],
       "trainingPrograms": [
         {
-          "name": "Wake County Pre-Apprenticeship — Summer 2026",
+          "name": "Wake County Pre-Apprenticeship \u2014 Summer 2026",
           "type": "Apprenticeship",
           "location": "Wake County",
-          "highlight": "New pilot launching Summer 2026 — inquire now",
+          "highlight": "New pilot launching Summer 2026 \u2014 inquire now",
           "applyUrl": "Contact Wake County DSS HR",
           "cost": "Paid pre-apprenticeship",
           "starts": "Summer 2026 launch",
           "info": "Wake County HR"
         },
         {
-          "name": "Durham Technical CC — Human Services",
+          "name": "Durham Technical CC \u2014 Human Services",
           "type": "Associate degree",
           "location": "Durham",
           "highlight": "Social services focus",
@@ -4299,7 +4879,7 @@
           "info": "919-536-7200"
         },
         {
-          "name": "Wake Technical CC — Human Services Tech",
+          "name": "Wake Technical CC \u2014 Human Services Tech",
           "type": "AAS degree",
           "location": "Wake County",
           "highlight": "DSS pipeline",
@@ -4320,10 +4900,10 @@
         }
       ],
       "jobQuality": {
-        "benefits": "Excellent public — State Health Plan, pension, PSLF loan forgiveness",
-        "schedule": "Standard M-F mostly — core M-F hours; some evening case work",
-        "advancement": "Worker to Manager — MSW accelerates advancement; DSS path well-defined",
-        "demands": "Emotionally complex — high caseloads; strong mission"
+        "benefits": "Excellent public \u2014 State Health Plan, pension, PSLF loan forgiveness",
+        "schedule": "Standard M-F mostly \u2014 core M-F hours; some evening case work",
+        "advancement": "Worker to Manager \u2014 MSW accelerates advancement; DSS path well-defined",
+        "demands": "Emotionally complex \u2014 high caseloads; strong mission"
       },
       "careerPathway": [
         {
@@ -4387,7 +4967,7 @@
         "demand": "560 ANNUAL ELECTRICIAN OPENINGS IN TRIANGLE",
         "automationRisk": "LOW AUTOMATION RISK",
         "entry": "ENTRY: APPRENTICESHIP OR CERTIFICATE + LICENSE",
-        "criminalRecord": "RECORD: MORE ACCESSIBLE — ASK EACH AGENCY"
+        "criminalRecord": "RECORD: MORE ACCESSIBLE \u2014 ASK EACH AGENCY"
       },
       "summary": "Install and maintain public electrical infrastructure, or inspect building electrical systems.",
       "byTheNumbers": [
@@ -4459,7 +5039,7 @@
           "info": "(919) 828-6511"
         },
         {
-          "name": "Durham Tech — Electrical + Forward Fund",
+          "name": "Durham Tech \u2014 Electrical + Forward Fund",
           "type": "ADN-level",
           "location": "Durham",
           "highlight": "Forward Fund income-share financing",
@@ -4469,7 +5049,7 @@
           "info": "919-536-7200"
         },
         {
-          "name": "Wake Technical CC — Electrical Systems",
+          "name": "Wake Technical CC \u2014 Electrical Systems",
           "type": "Certificate/diploma",
           "location": "Wake County",
           "highlight": "NCCER-aligned",
@@ -4490,10 +5070,10 @@
         }
       ],
       "jobQuality": {
-        "benefits": "Excellent public — State Health Plan, pension, paid leave standard",
-        "schedule": "Variable; some callout — field work variable; inspectors mostly M-F office/site",
-        "advancement": "Lineworker to Insp. — inspection role adds flexibility; mgmt track available",
-        "stability": "Infrastructure — electric grid maintenance never-ending; very stable"
+        "benefits": "Excellent public \u2014 State Health Plan, pension, paid leave standard",
+        "schedule": "Variable; some callout \u2014 field work variable; inspectors mostly M-F office/site",
+        "advancement": "Lineworker to Insp. \u2014 inspection role adds flexibility; mgmt track available",
+        "stability": "Infrastructure \u2014 electric grid maintenance never-ending; very stable"
       },
       "careerPathway": [
         {
@@ -4554,7 +5134,7 @@
         "demand": "STRONG DEMAND ACROSS ALL FOUR COUNTIES",
         "automationRisk": "LOW AUTOMATION RISK",
         "entry": "ENTRY: HS DIPLOMA + BLET ACADEMY 16 WEEKS",
-        "criminalRecord": "RECORD: BACKGROUND CHECK — VARIES BY OFFENSE"
+        "criminalRecord": "RECORD: BACKGROUND CHECK \u2014 VARIES BY OFFENSE"
       },
       "summary": "Protect and serve communities across Durham, Wake, Orange, and Johnston counties.",
       "byTheNumbers": [
@@ -4605,7 +5185,7 @@
       "quickFacts": [
         "State Health Plan and pension benefits",
         "Most agencies sponsor BLET for hired recruits",
-        "Background check required — varies by offense",
+        "Background check required \u2014 varies by offense",
         "Durham, Wake, Orange, Johnston all hiring"
       ],
       "whatYoullDo": [
@@ -4616,7 +5196,7 @@
       ],
       "trainingPrograms": [
         {
-          "name": "Durham Technical CC — BLET Program",
+          "name": "Durham Technical CC \u2014 BLET Program",
           "type": "16-week BLET",
           "location": "Durham",
           "highlight": "Strong Durham PD pipeline",
@@ -4626,7 +5206,7 @@
           "info": "919-536-7200"
         },
         {
-          "name": "Wake Technical CC — BLET Program",
+          "name": "Wake Technical CC \u2014 BLET Program",
           "type": "BLET",
           "location": "Wake County",
           "highlight": "Largest BLET program in region",
@@ -4636,7 +5216,7 @@
           "info": "919-866-5000"
         },
         {
-          "name": "Agency-Sponsored BLET — Durham/Wake/Johnston",
+          "name": "Agency-Sponsored BLET \u2014 Durham/Wake/Johnston",
           "type": "Sponsored",
           "location": "Triangle",
           "highlight": "Most agencies fund BLET for hired recruits",
@@ -4646,7 +5226,7 @@
           "info": "Agency HR dept."
         },
         {
-          "name": "Johnston Community College — Criminal Justice",
+          "name": "Johnston Community College \u2014 Criminal Justice",
           "type": "Certificate",
           "location": "Johnston County",
           "highlight": "Feeds Johnston County SO",
@@ -4657,10 +5237,10 @@
         }
       ],
       "jobQuality": {
-        "benefits": "Excellent public — State Health Plan, pension, paid leave among best",
-        "schedule": "Shift work required — nights, weekends, holidays inherent to role",
-        "advancement": "Clear promotion — exam-based promotion; detective track available",
-        "demands": "Physical and mental — high-stakes encounters; fitness required"
+        "benefits": "Excellent public \u2014 State Health Plan, pension, paid leave among best",
+        "schedule": "Shift work required \u2014 nights, weekends, holidays inherent to role",
+        "advancement": "Clear promotion \u2014 exam-based promotion; detective track available",
+        "demands": "Physical and mental \u2014 high-stakes encounters; fitness required"
       },
       "careerPathway": [
         {
@@ -4792,7 +5372,7 @@
     {
       "id": "explore",
       "label": "I'm just exploring options",
-      "description": "Show me everything — I'll narrow down as I learn.",
+      "description": "Show me everything \u2014 I'll narrow down as I learn.",
       "filters": {}
     }
   ]

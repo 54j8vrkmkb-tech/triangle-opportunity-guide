@@ -3,16 +3,28 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import {
   getAdjacentOccupations,
+  getEmployerLocations,
   getOccupation,
   getSector,
   getSectorName,
+  getStartingRolesLeadingTo,
   occupations,
+  transitStatusLabel,
 } from "@/lib/data";
 import { StatBlock } from "@/app/components/StatBlock";
 import { CareerPathway } from "@/app/components/CareerPathway";
 import { OccupationCard } from "@/app/components/OccupationCard";
 import { TrainingProgramCard } from "@/app/components/TrainingProgramCard";
 import { EmployerLink } from "@/app/components/EmployerLink";
+import { QuizCTA } from "@/app/components/QuizCTA";
+import { TopEmployersList } from "@/app/components/TopEmployersList";
+import { VariabilityNote } from "@/app/components/VariabilityNote";
+import { OccupationOpenings } from "@/app/components/OpeningsLinks";
+import { OccupationNCCareers } from "@/app/components/NCCareersLinks";
+import { BarriersBlock } from "@/app/components/BarriersBlock";
+import { GlossaryCallout } from "@/app/components/Glossary";
+import { SupportRouting } from "@/app/components/SupportRouting";
+import { getBarriers } from "@/lib/data";
 import { getSectorTheme } from "@/app/components/sectorTheme";
 
 export function generateStaticParams() {
@@ -111,6 +123,8 @@ export default async function OccupationPage({
   const annual = occ.wage.annualMedian.toLocaleString();
   const { adjacent, lateralFrom } = getAdjacentOccupations(occ.id);
   const hasAdjacent = adjacent.length > 0 || lateralFrom.length > 0;
+  const startingRolesIn = getStartingRolesLeadingTo(occ.id);
+  const barriers = getBarriers(occ.id);
 
   return (
     <>
@@ -213,7 +227,25 @@ export default async function OccupationPage({
       </section>
 
       <div className="mx-auto max-w-4xl px-5 py-8 sm:py-12">
-        <section>
+        <QuizCTA context={occ.title.toLowerCase()} />
+
+        <div className="mt-4">
+          <GlossaryCallout />
+        </div>
+
+        {occ.variability && (
+          <div className="mt-6">
+            <VariabilityNote variability={occ.variability} />
+          </div>
+        )}
+
+        {barriers && (
+          <div className="mt-6">
+            <BarriersBlock barriers={barriers} accent={theme.color} />
+          </div>
+        )}
+
+        <section className="mt-10">
           <SectionHeader
             eyebrow="Overview"
             title="Job at a Glance"
@@ -267,6 +299,66 @@ export default async function OccupationPage({
             ))}
           </ul>
         </section>
+
+        {occ.skills?.length > 0 && (
+          <section className="mt-10">
+            <SectionHeader
+              eyebrow="Skills"
+              title="Skills you'll need most"
+              description="The core abilities employers and training programs look for. Many transfer in from common no-degree jobs in other sectors."
+              color={theme.color}
+            />
+            <div className="mt-4 flex flex-wrap gap-2">
+              {occ.skills.map((skill, i) => (
+                <span
+                  key={i}
+                  className="inline-flex items-center rounded-sm px-3 py-1.5 text-sm font-semibold capitalize"
+                  style={{
+                    backgroundColor: theme.bg,
+                    color: theme.colorDark,
+                    borderWidth: 1,
+                    borderStyle: "solid",
+                    borderColor: theme.border,
+                  }}
+                >
+                  {skill}
+                </span>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {startingRolesIn.length > 0 && (
+          <section className="mt-10">
+            <SectionHeader
+              eyebrow="Bridge in"
+              title="Common starting jobs that bridge into this role"
+              description="Workers often arrive here from these everyday jobs in other sectors — no four-year degree, just transferable skills."
+              color={theme.color}
+            />
+            <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-3">
+              {startingRolesIn.map((r) => (
+                <Link
+                  key={r.id}
+                  href={`/find-your-fit/career-change?past=${encodeURIComponent(r.id)}`}
+                  className="group rounded-sm border border-[var(--color-border)] bg-white p-4 transition hover:border-[var(--color-foreground)] hover:shadow-sm"
+                >
+                  <div className="flex items-start gap-3">
+                    <span className="inline-flex items-center rounded-sm bg-[var(--color-accent-yellow)] px-2 py-0.5 text-[9px] font-bold uppercase tracking-wider text-[var(--color-foreground)] shrink-0">
+                      Common job
+                    </span>
+                  </div>
+                  <h3 className="mt-2 font-semibold text-sm text-[var(--color-foreground)] group-hover:underline">
+                    {r.title}
+                  </h3>
+                  <p className="mt-1 text-xs text-[var(--color-muted)] leading-snug">
+                    {r.description}
+                  </p>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
 
         {hasAdjacent && (
           <section className="mt-10">
@@ -326,29 +418,16 @@ export default async function OccupationPage({
         </section>
 
         <section className="mt-10">
-          <SectionHeader title="Top Employers" color={theme.color} />
-          <ul className="mt-3 divide-y divide-[var(--color-border)] rounded-sm border border-[var(--color-border)] bg-white">
-            {occ.topEmployers.map((emp, i) => (
-              <li
-                key={i}
-                className="flex flex-col gap-1 px-4 py-3 sm:flex-row sm:items-center sm:justify-between sm:gap-4"
-              >
-                <div>
-                  <div className="text-sm">
-                    <EmployerLink name={emp.name} />
-                  </div>
-                  <div className="text-xs text-[var(--color-muted)]">
-                    {emp.location}
-                  </div>
-                </div>
-                {emp.note && (
-                  <div className="text-xs text-[var(--color-muted-2)] sm:text-right">
-                    {emp.note}
-                  </div>
-                )}
-              </li>
-            ))}
-          </ul>
+          <SectionHeader
+            title="Top Employers"
+            description="The largest 5 below; click to expand the full Triangle list. Map shows transit access."
+            color={theme.color}
+          />
+          <TopEmployersList employers={occ.topEmployers} />
+        </section>
+
+        <section className="mt-10">
+          <OccupationOpenings occ={occ} />
         </section>
 
         <section className="mt-10">
@@ -384,6 +463,14 @@ export default async function OccupationPage({
               </div>
             ))}
           </div>
+        </section>
+
+        <section className="mt-10">
+          <OccupationNCCareers occ={occ} />
+        </section>
+
+        <section className="mt-10">
+          <SupportRouting />
         </section>
       </div>
     </>

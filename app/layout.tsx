@@ -33,6 +33,18 @@ export default function RootLayout({
       className={`${palanquin.variable} ${antonio.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-white text-[var(--color-foreground)]">
+        {/* Beta-site banner — site-wide */}
+        <div className="bg-[var(--color-accent-yellow)] text-[var(--color-foreground)] text-[11px] sm:text-xs border-b-2 border-[var(--color-foreground)]">
+          <div className="mx-auto max-w-6xl px-5 py-1.5 flex items-center gap-2">
+            <span className="font-bold uppercase tracking-wider">
+              Beta site
+            </span>
+            <span className="opacity-80">
+              Not all information has been verified at this time.
+            </span>
+          </div>
+        </div>
+
         <div className="bg-[var(--color-foreground)] text-white text-[11px]">
           <div className="mx-auto max-w-6xl px-5 py-2 flex items-center justify-between">
             <span className="opacity-80">
@@ -68,10 +80,10 @@ export default function RootLayout({
                 Sectors
               </Link>
               <Link
-                href="/find-your-fit"
+                href="/find-your-fit/quiz"
                 className="inline-flex items-center rounded-sm bg-[var(--color-accent-yellow)] px-3 sm:px-4 py-2 text-sm font-bold uppercase tracking-wide text-[var(--color-foreground)] hover:bg-[var(--color-accent-yellow-dark)] transition"
               >
-                Find Your Fit
+                Take the Quiz
               </Link>
             </nav>
           </div>
@@ -79,16 +91,69 @@ export default function RootLayout({
 
         <main className="flex-1">{children}</main>
 
-        <footer className="border-t-4 border-[var(--color-brand)] bg-[var(--color-foreground)] text-white mt-16">
-          <div className="mx-auto max-w-6xl px-5 py-8 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-            <div>
-              <div className="font-display text-lg uppercase tracking-wide">
-                {meta.publisher}
-              </div>
-              <div className="text-xs opacity-70">{meta.initiative}</div>
+        <footer className="border-t-4 border-[var(--color-brand)] bg-white mt-16">
+          {/* Partner band — solid white so brand logos sit on their native background */}
+          <div className="border-b border-[var(--color-border)]">
+            <div className="mx-auto max-w-6xl px-5 py-6 flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-12">
+              <a
+                href="https://unitedwaytriangle.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="United Way of the Greater Triangle"
+                className="inline-flex"
+              >
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/logos/uwgt.png"
+                  alt="United Way of the Greater Triangle"
+                  height={56}
+                  style={{ height: 56, width: "auto", objectFit: "contain" }}
+                />
+              </a>
+              <a
+                href="https://unitedwaytriangle.org/our-work/future-of-work/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Future of Work Initiative"
+                className="inline-flex"
+              >
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/logos/future-of-work.png"
+                  alt="Future of Work Initiative"
+                  height={56}
+                  style={{ height: 56, width: "auto", objectFit: "contain" }}
+                />
+              </a>
             </div>
-            <div className="text-xs opacity-70">
-              {meta.edition} · Last updated {meta.lastUpdated}
+          </div>
+          {/* Metadata strip */}
+          <div className="bg-[var(--color-foreground)] text-white">
+            <div className="mx-auto max-w-6xl px-5 py-5 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between text-xs">
+              <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
+                <span className="font-display uppercase tracking-wide">
+                  {meta.publisher}
+                </span>
+                <span className="opacity-50">·</span>
+                <span>{meta.initiative}</span>
+                <span className="opacity-50">·</span>
+                <Link
+                  href="/glossary"
+                  className="underline hover:opacity-90"
+                >
+                  Definitions
+                </Link>
+                <span className="opacity-50">·</span>
+                <Link
+                  href="/find-your-fit/quiz"
+                  className="underline hover:opacity-90"
+                >
+                  Job-fit quiz
+                </Link>
+              </div>
+              <div className="opacity-70">
+                {meta.edition} · Last updated {meta.lastUpdated}
+              </div>
             </div>
           </div>
         </footer>

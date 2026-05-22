@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local reference material (kept off the repo; site assets live in /public)
+/data/*.pdf
+/data/*.png
+/data/*.jpg
+/data/*.jpeg
